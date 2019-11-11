@@ -1,13 +1,15 @@
 $(document).ready(function () {
 
   //logger.log('appReady');
+  if (window.app) {
+    window.app.setup();
+    window.onresize = resize;
 
-  app.setup();
+  }
 
   // roundNails();
   // initHeader();
 
-  window.onresize = resize;
   // window.onscroll = scroll;
 
 
@@ -90,20 +92,24 @@ $(document).ready(function () {
 
 import App from './animations/core/app.js';
 
-const app = new App();
+if (window.location.pathname === "/") {
 
-const resize = () => {
-  app.resize();
-  // roundNails();
-};
+  const app = new App();
+  window.app = app;
+  const resize = () => {
+    app.resize();
+    // roundNails();
+  };
 
-const scroll = () => {
-  app.scroll();
-  toggleHeader();
-};
+  const scroll = () => {
+    app.scroll();
+    toggleHeader();
+  };
 
-// UPDATE ----------------------------------------------------------------------
-const update = () => {
-  app.update();
-  window.requestAnimationFrame(update);
-};
+  // UPDATE ----------------------------------------------------------------------
+  const update = () => {
+    app.update();
+    window.requestAnimationFrame(update);
+  };
+
+}
