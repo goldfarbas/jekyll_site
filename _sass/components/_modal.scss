@@ -45,8 +45,15 @@ body.modal-open {
     }
 
     .modal-body {
+        .mce_inline_error,
+        #mce-error-response{
+            color: #fd3a21;
+        }
+        #mce-success-response{
+            color: #00c0ab;
+        }
         form {
-            input {
+            input[type='email'] {
                 padding: 13px 10px;
                 color: #5b88ff;
                 background: #dcebff;
