@@ -77,9 +77,9 @@ title: bZx - Protocol for tokenized margin trading and lending
                 <div class="circle bottom left"></div>
                 <div class="circle top right"></div>
                 <div class="circle bottom right z-index-2"></div>
-                <a href="https://zerion.io/">
-                {% include svg/zerion.svg %}
-                <p>A single solution to access DeFi to invest, earn interest and borrow crypto assets.</p>
+                <a href="https://staked.us/">
+                {% include svg/stacked.svg %}
+                <p>Staked helps institutional investors reliably and securely compound their crypto through staking and lending.</p>
                 </a>
                 </div>
             </div>
@@ -157,7 +157,14 @@ title: bZx - Protocol for tokenized margin trading and lending
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://portfolio.defiprime.com/">
+                {% include svg/portfolio-defiprime.svg %}
+                <p>DeFi portfolio tracker & reporting tool for investors</p>
+                </a>
                 </div>
             </div>
         </div>
