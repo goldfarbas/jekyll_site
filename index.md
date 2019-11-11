@@ -10,7 +10,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">The most powerful open finance protocol</h1>
     </div>
     <div class="container container-lg">
-        <p class="fs-20 fs-sm-13 lh-160 ">bZx Protocol is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications.</p>
+        <p class="fs-20 fs-sm-13 lh-160 ">Build applications that empower lenders, borrowers, and traders with the most flexible decentralized finance protocol on Ethereum.</p>
     </div>
 </section>
 
@@ -73,26 +73,26 @@ title: bZx - Protocol for tokenized margin trading and lending
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    <a href="https://idle.finance/">
-                    {% include svg/idle.finance.svg %}
-                    <p>Idle gathers data from different lending protocols, seeking the highest available interest rate.</p>
-                    </a>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://zerion.io/">
+                {% include svg/zerion.svg %}
+                <p>A single solution to access DeFi to invest, earn interest and borrow crypto assets.</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    <a href="https://idle.finance/">
-                    {% include svg/stacked.svg %}
-                    <p>Staked helps institutional investors reliably and securely compound their crypto through staking and lending.</p>
-                    </a>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://dexwallet.io">
+                {% include svg/dex-wallet.svg %}
+                <p>The mobile wallet for decentralized finance</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -121,50 +121,43 @@ title: bZx - Protocol for tokenized margin trading and lending
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    <a href="https://betoken.fund/">
-                    {% include svg/dex-wallet.svg %}
-                    <p>The mobile wallet for decentralized finance</p>
-                    </a>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://eidoo.io/">
+                {% include svg/eidoo.svg %}
+                <p>Fast and easy Multicurrency Wallet and hybrid exchange.</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    <a href="https://eidoo.io/">
-                    {% include svg/eidoo.svg %}
-                    <p>Fast and easy Multicurrency Wallet and hybrid exchange.</p>
-                    </a>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://alphawallet.com/">
+                {% include svg/alpha-wallet.svg %}
+                <p>The secure, advanced and intuitive Ethereum wallet</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    <a href="https://alphawallet.com/">
-                    {% include svg/alpha-wallet.svg %}
-                    <p>The secure, advanced and intuitive Ethereum wallet</p>
-                    </a>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://idle.finance/">
+                {% include svg/stacked.svg %}
+                <p>Visualize your Decentralized Finance activity</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    <a href="https://alphawallet.com/">
-                    {% include svg/zerion.svg %}
-                    <p>A single solution to access DeFi to invest, earn interest and borrow crypto assets.</p>
-                    </a>
+
                 </div>
             </div>
         </div>
