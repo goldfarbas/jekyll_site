@@ -11,11 +11,10 @@ twitter:
   name: Twitter
   svg: "svg/twitter.svg"
 discord:
-  url: http://bzx.network/discord
+  url: https://bzx.network/discord
   name: Discord
   svg: "svg/discord.svg"
 telegram:
   url: https://t.me/b0xNet
   name: Telegram
   svg: "svg/telegram.svg"
-
