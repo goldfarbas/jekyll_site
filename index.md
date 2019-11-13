@@ -7,10 +7,10 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 <section class="text-center color-primary">
     <div class="container container-md">
-        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">bZx Protocol</h1>
+        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">The most powerful open finance protocol</h1>
     </div>
     <div class="container container-lg">
-        <p class="fs-20 fs-sm-13 lh-160 ">bZx Protocol is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications.</p>
+        <p class="fs-20 fs-sm-13 lh-160 ">Build applications that empower lenders, borrowers, and traders with the most flexible decentralized finance protocol on Ethereum.</p>
     </div>
 </section>
 
@@ -60,16 +60,42 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
     <div class="container container-xl before-integraion after-integraion pb-445 pb-sm-0 z-index-2">
-        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community built integrations</h2>
+        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community Interfaces</h2>
         <div class="d-flex f-wrap j-content-sb j-md-content-sa">
-            <div class="wrap-integrations">
+          <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
+                    <div class="circle bottom right z-index-2"></div>  
+                    <a href="https://defisaver.com/">
                     {% include svg/defi-saver.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>DeFi Saver is a one-stop management solution for decentralized finance protocols.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://staked.us/">
+                {% include svg/stacked.svg %}
+                <p>Staked helps institutional investors reliably and securely compound their crypto through staking and lending.</p>
+                </a>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://dexwallet.io">
+                {% include svg/dex-wallet.svg %}
+                <p>The mobile wallet for decentralized finance</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -78,28 +104,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    {% include svg/idle.finance.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/stacked.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
+                    <a href="https://1inch.exchange/">
                     {% include svg/1inch.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>Token Swap Aggregator with the best prices on the DEX market.</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -108,48 +116,58 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://betoken.fund/">
                     {% include svg/betoken.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>Crowd-powered asset management protocol</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/dex-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://eidoo.io/">
+                {% include svg/eidoo.svg %}
+                <p>Fast and easy Multicurrency Wallet and hybrid exchange.</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/eidoo.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://alphawallet.com/">
+                {% include svg/alpha-wallet.svg %}
+                <p>The secure, advanced and intuitive Ethereum wallet</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/alpha-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://idle.finance/">
+                {% include svg/stacked.svg %}
+                <p>Visualize your Decentralized Finance activity</p>
+                </a>
                 </div>
             </div>
             <div class="wrap-integrations">
                 <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/zerion.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                <div class="circle top left"></div>
+                <div class="circle bottom left"></div>
+                <div class="circle top right"></div>
+                <div class="circle bottom right z-index-2"></div>
+                <a href="https://portfolio.defiprime.com/">
+                {% include svg/portfolio-defiprime.svg %}
+                <p>DeFi portfolio tracker & reporting tool for investors</p>
+                </a>
                 </div>
             </div>
         </div>
@@ -187,16 +205,16 @@ title: bZx - Protocol for tokenized margin trading and lending
     <div class="container container-md pt-55 pt-sm-0 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Insured with the bZx guarantee fund</h3>
         <p class="lh-160 mb-30">bZx pools loans together in a decentralized clearinghouse. Lenders can lend to a whole pool of people, averaging risk across many borrowers, allowing for a more predictable income stream. All bZx loans are insured with the bZx guarantee fund.</p>
-        <a href="#" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
+        <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
     </div>
     <div class="p-relative svg-insured mt-r-90 mt-sm-60 mb-40 mb-sm-20">
         {% include svg/insured.svg %}
         {% include svg/insured-mobile.svg %}        
-    </div> 
+    </div>
     <div class="p-relative before-smoke" id="visible-wheel">
-    
+
         <div class="p-relative smoking-tube overflow-x visible-lg">
-       
+
                 {% include svg/smoking-tube.svg %}
                 <canvas id="safer-smoke" ></canvas>
 
