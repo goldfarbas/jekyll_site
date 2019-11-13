@@ -148,9 +148,9 @@ export default class CreateSmoke {
         if (this.paused)
             return;
 
-        // this.paused = true;
-        // this.currentMiliseconds = null;
-        // this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        this.paused = true;
+        this.currentMiliseconds = null;
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     }
 
     play() {
