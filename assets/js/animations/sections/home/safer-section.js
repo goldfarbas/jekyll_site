@@ -101,7 +101,7 @@ export default class SaferSection extends Section {
     // STATE -------------------------------------------------------------------
 
     isTouchDevice() {
-        if (window.innerWidth < 1110) {
+        if (window.innerWidth < 1024) {
             this.isMobile = true;
             this.mobileSmoke.style.opacity = 0.5;
             this.mobileSmoke.style.transform = 'translate(510px, 40px) scale(0.8)';
