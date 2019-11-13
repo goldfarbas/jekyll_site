@@ -3,7 +3,6 @@ $(document).ready(function () {
   //logger.log('appReady');
   if (window.app) {
     window.app.setup();
-    window.onresize = resize;
 
   }
 
@@ -100,6 +99,9 @@ if (window.location.pathname === "/") {
     app.resize();
     // roundNails();
   };
+
+  window.onresize = resize;
+
 
   const scroll = () => {
     app.scroll();

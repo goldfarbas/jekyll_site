@@ -23,8 +23,11 @@ title: bZx - Protocol for tokenized margin trading and lending
         <a href="{{ site.data.social-icons.github.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">GitHub</a>
         <a href="{{ site.data.social-icons.discord.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
     </div>
-    {% include svg/system.svg %}
+    <div class="mt-r-90 mx-auto mw-100 hidden-sm container-xl">
+    {% include svg/hero-image1.svg %}
+    </div>
     {% include svg/system-mobile.svg %}
+
 </section>
 
 <section class="text-center pt-55 pt-sm-45 pb-80 pb-sm-30 bg-tertiary">
