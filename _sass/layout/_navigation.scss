@@ -30,11 +30,10 @@
     .link {
         display: flex;
         font-family: $primary-font;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 1.25;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        text-transform: none;
         text-decoration: none;
         color: $secondary-color;
         position: relative;
@@ -43,7 +42,7 @@
         }
         img {
             position: absolute;
-            bottom: 5px;
+            top: -6px;
             left: -16px;
         }
     }
@@ -85,7 +84,7 @@
                 flex-direction: column;
 
                 li {
-                    margin-bottom: 10px;
+                    margin-bottom: 30px;
                 }
             }
         }
@@ -99,9 +98,16 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
     .menu-list-item:not(:last-child) {
-        padding-right: 25px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1140px) {
+
+    .menu-list-item:not(:last-child) {
+        padding-right: 35px;
     }
 }

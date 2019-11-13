@@ -15,7 +15,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 </section>
 
 <section class="mt-40 bg-wave text-center">
-    <div class="container container-md d-flex f-wrap j-content-sb px-65 px-sm-15">
+    <div class="buttons-wrapper container container-md d-flex f-wrap j-content-sb px-65 px-sm-15">
         <a href="{{ site.data.social-icons.twitter.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
         <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10 join-mailing-list">Join mailing list</a>
         <a href="{{ site.data.social-icons.telegram.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
@@ -23,7 +23,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         <a href="{{ site.data.social-icons.github.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">GitHub</a>
         <a href="{{ site.data.social-icons.discord.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
     </div>
-    <div class="mt-r-90 mx-auto mw-100 hidden-sm container-xl">
+    <div class="mt-xl-r-120 mx-auto mw-100 hidden-sm container-xl">
     {% include svg/hero-image1.svg %}
     </div>
     {% include svg/system-mobile.svg %}
@@ -214,17 +214,17 @@ title: bZx - Protocol for tokenized margin trading and lending
     <div class="p-relative before-smoke" id="visible-wheel">
 
         <div class="p-relative smoking-tube overflow-x visible-lg">
-
-                {% include svg/smoking-tube.svg %}
-                <canvas id="safer-smoke" ></canvas>
-
+            {% include svg/smoking-tube.svg %}
+            <canvas id="safer-smoke" ></canvas>
         </div>
         <div class="container container-sm mb-60 mb-sm-10 mt-lg-r-90 mt-sm-20 p-relative opacity-trumpet">
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-30 color-tertiary">BZRX Governance Token </h3>
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
         </div>
-        {% include svg/wheel.svg %}
+        <div class="visible-lg">
+            {% include svg/wheel.svg %}
+        </div>
     </div>
     <div class="p-relative rotate-line-2 mb-20 mb-sm-0">        
         {% include svg/token.svg %}

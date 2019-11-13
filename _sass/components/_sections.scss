@@ -99,6 +99,21 @@
     }
 }
 
+section.bg-wave {
+    .buttons-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 15px;
+        > a {
+            justify-self: center;
+        }
+
+        @media (max-width: 579px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
 .wrapper-dots {
     border-top: 2px solid $primary-color;
     border-bottom: 2px solid $primary-color;
