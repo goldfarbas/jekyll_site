@@ -75,7 +75,37 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    {% include svg/alpha-wallet.svg %}
+                    {% include svg/idle.finance.svg %}
+                    <p>An advanced interface with support for hardware devices</p>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>
+                    {% include svg/stacked.svg %}
+                    <p>An advanced interface with support for hardware devices</p>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>
+                    {% include svg/1inch.svg %}
+                    <p>An advanced interface with support for hardware devices</p>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>
+                    {% include svg/betoken.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -95,7 +125,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    {% include svg/defi-saver.svg %}
+                    {% include svg/eidoo.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -115,37 +145,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    {% include svg/dex-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/defi-saver.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/alpha-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/dex-wallet.svg %}
+                    {% include svg/zerion.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -180,7 +180,7 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
 </section>
 
-<section class="text-center bg-primary color-white p-relative overflow-xl">
+<section class="safer-section text-center bg-primary color-white p-relative overflow-xl">
     <div class="container container-md pt-55 pt-sm-0 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Insured with the bZx guarantee fund</h3>
         <p class="lh-160 mb-30">bZx pools loans together in a decentralized clearinghouse. Lenders can lend to a whole pool of people, averaging risk across many borrowers, allowing for a more predictable income stream. All bZx loans are insured with the bZx guarantee fund.</p>
@@ -191,7 +191,14 @@ title: bZx - Protocol for tokenized margin trading and lending
         {% include svg/insured-mobile.svg %}        
     </div> 
     <div class="p-relative before-smoke" id="visible-wheel">
-        <div class="container container-sm mb-60 mb-sm-10 mt-115 mt-sm-20 p-relative opacity-trumpet">           
+    
+        <div class="p-relative smoking-tube overflow-x visible-lg">
+       
+                {% include svg/smoking-tube.svg %}
+                <canvas id="safer-smoke" ></canvas>
+
+        </div>
+        <div class="container container-sm mb-60 mb-sm-10 mt-lg-r-90 mt-sm-20 p-relative opacity-trumpet">
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-30 color-tertiary">BZRX Governance Token </h3>
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
@@ -412,9 +419,9 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
     <div class="tab">
         <div class="buttons-tabs">
-            <button class="tablinks active" onclick="openTab(event, '2019')" id="button2019">2019</button>
-            <button class="tablinks" onclick="openTab(event, '2018')" id="button2018">2018</button>
-            <button class="tablinks" onclick="openTab(event, '2017')" id="button2017">2017</button>
+            <button class="tablinks active" data-year="2019" id="button2019">2019</button>
+            <button class="tablinks" data-year="2018"  id="button2018">2018</button>
+            <button class="tablinks" data-year="2017" id="button2017">2017</button>
         </div>
     </div>
 </section>

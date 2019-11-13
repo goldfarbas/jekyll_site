@@ -20,6 +20,7 @@
         position: relative;
         border-top: 2px solid $primary-color;
         overflow: hidden;
+        height: 100%;
         @media (min-width: 580px) {
             padding: 50px 20px 37px 20px;
         }
@@ -415,5 +416,16 @@
             margin-left: 0;
             margin-right: 0;
         }
+    }
+}
+
+.smoking-tube {
+    margin-top: -240px;
+
+    #safer-smoke {
+        opacity: 0.2;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }

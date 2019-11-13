@@ -333,4 +333,6 @@ var observer = new IntersectionObserver(entries => {
     });
 }, options);
 
-observer.observe(targetHistory);
+if (targetHistory) {
+    observer.observe(targetHistory);
+}
