@@ -88,30 +88,3 @@ $(document).ready(function () {
   })
 
 });
-
-import App from './animations/core/app.js';
-
-if (window.location.pathname === "/") {
-
-  const app = new App();
-  window.app = app;
-  const resize = () => {
-    app.resize();
-    // roundNails();
-  };
-
-  window.onresize = resize;
-
-
-  const scroll = () => {
-    app.scroll();
-    toggleHeader();
-  };
-
-  // UPDATE ----------------------------------------------------------------------
-  const update = () => {
-    app.update();
-    window.requestAnimationFrame(update);
-  };
-
-}
