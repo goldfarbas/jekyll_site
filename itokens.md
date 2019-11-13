@@ -2,7 +2,7 @@
 layout: page
 permalink: itokens
 metadescription: "iTokens, such as iDAI or iUSDC, are interest accumulating tokens that continuously go up in value as you hold them. They represent a share in a lending pool that grows in size as borrowers pay interest into them."
-featured-image: /images/ogp.png
+featured-image: /images/ogp-itokens.png
 title: iTokens - interest-bearing ERC-20 assets. What is iTokens?
 h1title: What is iTokens?
 ---
