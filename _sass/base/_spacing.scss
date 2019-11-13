@@ -333,7 +333,8 @@
         padding-right: 40px;
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1140px) {
+
     .mt-lg-r-90{
         margin-top: -90px;
     }
@@ -408,6 +409,89 @@
         padding-right: 15px;
     }
     .px-lg-40{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1141px) {
+    .mt-xl-r-120{
+        margin-top: -120px;
+    }
+    .mt-xl-r-90{
+        margin-top: -90px;
+    }
+    .mt-xl-r-5{
+        margin-top: -5px;
+    }
+    .mt-xl-20{
+        margin-top: 20px;
+    }
+    .mt-xl-30{
+        margin-top: 30px;
+    }
+    .mt-xl-40{
+        margin-top: 40px;
+    }
+    .mt-xl-60{
+        margin-top: 60px;
+    }
+    .mb-xl-0{
+        margin-bottom: 0;
+    }
+    .mb-xl-10{
+        margin-bottom: 10px;
+    }
+    .mb-xl-15{
+        margin-bottom: 15px;
+    }
+    .mb-xl-20{
+        margin-bottom: 20px;
+    }
+    .mb-xl-30{
+        margin-bottom: 30px;
+    }
+    .mb-xl-40{
+        margin-bottom: 40px;
+    }
+    .mb-xl-50{
+        margin-bottom: 50px;
+    }
+    .pt-xl-0{
+        padding-top: 0;
+    }
+    .pt-xl-30{
+        padding-top: 30px;
+    }
+    .pt-xl-35{
+        padding-top: 35px;
+    }
+    .pt-xl-45{
+        padding-top: 45px;
+    }
+    .pt-xl-90{
+        padding-top: 90px;
+    }
+    .pb-xl-0{
+        padding-bottom: 0;
+    }
+    .pb-xl-20{
+        padding-bottom: 20px;
+    }
+    .pb-xl-30{
+        padding-bottom: 30px;
+    }
+    .pb-xl-35{
+        padding-bottom: 35px;
+    }
+    .pb-xl-55{
+        padding-bottom: 55px;
+    }
+    .px-xl-15{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .px-xl-40{
         padding-left: 40px;
         padding-right: 40px;
     }
