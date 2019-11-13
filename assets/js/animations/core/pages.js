@@ -1,7 +1,7 @@
 // home
 // import BoxMakesSection          from '../sections/home/box-makes-section.js';
 // import BoxSolvesSection         from '../sections/home/box-solves-section.js';
-// import HeroSection              from '../sections/home/hero-section.js';
+import HeroSection              from '../sections/home/hero-section.js';
 // import HodlSection              from '../sections/home/hodl-section.js';
 // import LongPositionsSection     from '../sections/home/long-positions-section.js';
 // import MarginSection            from '../sections/home/margin-section.js';
@@ -27,7 +27,7 @@ import Section from './section.js';
 export default {
 
     HOME: [
-        // HeroSection,
+        HeroSection,
         // HodlSection,
         // BoxMakesSection,
         // MarginSection,

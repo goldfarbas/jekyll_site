@@ -1,8 +1,8 @@
 // core
 import Section      from '../../core/section.js';
 //import { TweenMax, TweenLite, TimelineMax, Power0, Power1 }    from '../../tweenMax.js';
-import CustomEase from '../../modules/CustomEase';
-import initHeroBgAsync from '../../modules/heroBgAnimation';
+// import CustomEase from '../../modules/CustomEase';
+// import initHeroBgAsync from '../../modules/heroBgAnimation.js';
 
 const morphSVGPlugin = MorphSVGPlugin;
 
@@ -100,7 +100,8 @@ export default class HeroSection extends Section {
         );
 
         this.animInitialized = true;
-        if (this._active) this._activate();
+        // if (this._active) this._activate();
+        this._activate();
     }
 
     resize() {
@@ -109,12 +110,13 @@ export default class HeroSection extends Section {
         if (this.activated && this.tablet !== isTablet()) {
             // this.activated = false;
             this.tablet = isTablet();
-
-            initHeroBgAsync()
-                .then(() => { 
-                    this.activated = true;
-                    this.initAnimation();
-                });
+            this.activated = true;
+            this.initAnimation();
+            // initHeroBgAsync()
+            //     .then(() => { 
+            //         this.activated = true;
+            //         this.initAnimation();
+            //     });
         }
     }
     // STATE -------------------------------------------------------------------

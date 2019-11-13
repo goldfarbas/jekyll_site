@@ -58,7 +58,9 @@ export default class App
         this._pageID = "HOME"
         this._page   = Pages[this._pageID];
 
-        const sections = this._root.querySelectorAll('section.safer-section');
+        const sections = [];
+        sections.push(this._root.querySelector('section.safer-section'));
+        sections.push(this._root.querySelector('section.bg-wave'));
         // set up page sections
         this._setupSections(sections);
 
@@ -76,11 +78,11 @@ export default class App
         this._sections    = [];
         this._numSections = sections.length;
 
-        // sections.forEach(( section, i ) => {
-        //     if (this._page[i])
-        //         this._sections.push(new this._page[i]({ element: section }));
-        // });
-        this._sections.push(new this._page[0]({ element: this._root.querySelectorAll('section.safer-section') })); //safer-section
+        sections.forEach(( section, i ) => {
+            if (this._page[i])
+                this._sections.push(new this._page[i]({ element: section }));
+        });
+        // this._sections.push(new this._page[0]({ element: this._root.querySelectorAll('section.safer-section') })); //safer-section
 
 
         //logger.log(`Sections (${this._numSections}):`, this._sections);
