@@ -191,9 +191,6 @@ title: bZx - Protocol for tokenized margin trading and lending
         {% include svg/insured-mobile.svg %}        
     </div> 
     <div class="p-relative before-smoke" id="visible-wheel">
-        <div class="p-relative rotate-line">
-            {% include svg/rotate-line.svg %}
-        </div>
         <div class="container container-sm mb-60 mb-sm-10 mt-115 mt-sm-20 p-relative opacity-trumpet">           
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-30 color-tertiary">BZRX Governance Token </h3>
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
@@ -201,7 +198,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         </div>
         {% include svg/wheel.svg %}
     </div>
-    <div class="p-relative rotate-line-2 mb-20 mb-sm-0">
+    <div class="p-relative rotate-line-2 mb-20 mb-sm-0">        
         {% include svg/token.svg %}
         {% include svg/token-mobile.svg %}
     </div>
