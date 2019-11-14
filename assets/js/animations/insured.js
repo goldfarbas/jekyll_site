@@ -463,7 +463,7 @@ function animateInsured() {
         .add(CoinRight2WayRight1, '-=0.8')
         .add(CoinLeft4WayLeft3, '-=0.5')
 
-        .add(CoinLeft8WayDown2, '-=0.8')
+        .add(CoinLeft8WayDown2, '-=1')
         .add(CoinRight4WayRight3, '-=0.6')
         .add(CoinRight8WayDown3, '-=0.8')
 
