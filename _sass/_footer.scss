@@ -25,13 +25,18 @@ footer {
         }
         ul {
             li {
-                letter-spacing: 0.05em;
-                text-transform: uppercase;
+                text-transform: none;
 
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
                 margin-bottom: 20px;
                 &:first-child {
                     color: white;
-                    margin-bottom: 25px;
+                    margin-bottom: 30px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 25px;
                 }
 
                 a {
