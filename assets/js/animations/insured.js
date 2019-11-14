@@ -37,6 +37,8 @@ let lineRight1 = $('#line_right1');
 let lineRight2 = $('#line_right2');
 let lineRight3 = $('#line_right3');
 
+let dotLeft = $('#dot_left');
+let dotRight = $('#dot_right');
 
 let in_cart1Way1 = $('#in_cart1_way1');
 let in_cart2Way1 = $('#in_cart2_way1');
@@ -68,19 +70,32 @@ const defOptionsinContainer = {
     yPercent: 0
 };
 
+function animateInsured() {
 
-function startAnimation() {
-
-    let timeline = new TimelineMax({ repeat: -1 });
+    let timeline = new TimelineMax();
+    let timelineRepeat = new TimelineMax({ repeat: -1 });
     const coinSpeed = 1;
-    const coinSpeedinContainer = 0.1;
+    const coinSpeedinContainer = 0.6;
     const coinSpeedinTrumpet = 0.3;
 
-    /*TweenLite.set(inCoinLeft8, { xPercent: -55, yPercent: -90 } );
-    TweenLite.set(inCoinRight8, { xPercent: -50, yPercent: -50 } );*/
     TweenLite.set(
         [inCoinLeft5, inCoinLeft6, inCoinLeft7, inCoinRight5, inCoinRight6, inCoinRight7],
         { xPercent: 0, yPercent: 0 });
+
+    let resetPrecentinCoinLeft8 = moveByPAth(
+        inCoinLeft8,
+        dotLeft,
+        {
+            defOptionsinContainer
+        }
+    );
+    let resetPrecentinCoinRight8 = moveByPAth(
+        inCoinRight8,
+        dotRight,
+        {
+            defOptionsinContainer
+        }
+    );
 
     let CoinLeft1WayLeft1 = moveByPAth(
         inCoinLeft1,
@@ -96,8 +111,6 @@ function startAnimation() {
                 TweenLite.set(
                     [inCoinLeft5, inCoinLeft6, inCoinLeft7, inCoinRight5, inCoinRight6, inCoinRight7],
                     { xPercent: 0, yPercent: 0 });
-                /*TweenLite.set(inCoinLeft8, { xPercent: -55, yPercent: -90 } );
-                TweenLite.set(inCoinRight8, { xPercent: -50, yPercent: -50 } );*/
             },
 
         }
@@ -148,7 +161,7 @@ function startAnimation() {
         inCoinLeft4,
         lineLeft3,
         {
-            duration: coinSpeed,
+            duration: 0.1,
             ease: Power4.ease,
             onStart: () => {
                 TweenLite.set(inCoinLeft4, { autoAlpha: 1 });
@@ -226,13 +239,11 @@ function startAnimation() {
         false
     );
 
-
-
     let CoinRight4WayRight3 = moveByPAth(
         inCoinRight4,
         lineRight3,
         {
-            duration: coinSpeed,
+            duration: 0.1,
             ease: Power4.ease,
             onStart: () => {
                 TweenLite.set(inCoinRight4, { autoAlpha: 1 });
@@ -258,52 +269,41 @@ function startAnimation() {
         }
     );
     //move 
-    /*let inCoinLeft4Down = TweenLite
-        .to(inCoinLeft4, 0.1, {
-            ease: Power0.easeNone,
-            y: 0
-        });*/
-
     let inCoinLeft5Down = TweenLite
         .to(inCoinLeft5, 0.1, {
             ease: Power0.easeNone,
-            x: -232,
-            y: 37
+            x: -237.3,
+            y: 31.7
         });
     let inCoinLeft6Down = TweenLite
         .to(inCoinLeft6, 0.1, {
             ease: Power0.easeNone,
-            x: -270,
-            y: 35
+            x: -268.8,
+            y: 33.1
         });
     let inCoinLeft7Down = TweenLite
         .to(inCoinLeft7, 0.1, {
             ease: Power0.easeNone,
             x: -240,
-            y: 35
-        });
-    let inCoinRight4Down = TweenLite
-        .to(inCoinRight4, 0.1, {
-            ease: Power0.easeNone,
-            y: -70
+            y: 32
         });
     let inCoinRight5Down = TweenLite
         .to(inCoinRight5, 0.1, {
             ease: Power0.easeNone,
-            x: -240,
-            y: 30
+            x: -237.3,
+            y: 31.87
         });
     let inCoinRight6Down = TweenLite
         .to(inCoinRight6, 0.1, {
             ease: Power0.easeNone,
-            x: -270,
-            y: 32
+            x: -268.8,
+            y: 33
         });
     let inCoinRight7Down = TweenLite
         .to(inCoinRight7, 0.1, {
             ease: Power0.easeNone,
-            x: -240,
-            y: 35
+            x: -237.6,
+            y: 30
         });
 
     let inCart1Way1 = moveByPAth(
@@ -390,12 +390,12 @@ function startAnimation() {
                 TweenLite.set(inCoinLeft5, defOptionsinContainer);
                 TweenLite.set(inCoinLeft6, defOptionsinContainer);
                 TweenLite.set(inCoinLeft7, defOptionsinContainer);
-                TweenLite.set(inCoinLeft8, { xPercent: -55, yPercent: -90 });
+                TweenLite.set(inCoinLeft8, { xPercent: -55, yPercent: -80 }); //-90
 
                 TweenLite.set(inCoinRight5, defOptionsinContainer);
                 TweenLite.set(inCoinRight6, defOptionsinContainer);
                 TweenLite.set(inCoinRight7, defOptionsinContainer);
-                TweenLite.set(inCoinRight8, { xPercent: -50, yPercent: -50 });
+                TweenLite.set(inCoinRight8, { xPercent: -50, yPercent: -65 }); //-50 -50
             },
 
         }
@@ -441,43 +441,59 @@ function startAnimation() {
     );
 
     timeline
+        .add(resetPrecentinCoinLeft8)
+        .add(resetPrecentinCoinRight8)
+
+    timelineRepeat
         .add(CoinLeft1WayLeft1, '-=0.2')
         .add(CoinRight1WayRight1, '-=0.4')
 
         .add(CoinLeft3WayLeft2, '+=0.2')
-        .add(CoinRight3WayRight2, '-=0.4')
+        .add(CoinRight3WayRight2, '+=0.2')
 
-        .add(inCart4Way1, '-=2')
+        .add(inCart4Way1, '-=1.6')
         .add(inCart3Way1, '-=1.8')
         .add(inCart2Way1, '-=1.6')
         .add(inCart1Way1, '-=1.6')
-
-
 
         .add(CoinLeft1WayDown4, '+=0.4')
         .add(CoinRight1WayDown1, '-=1.0')
 
         .add(CoinLeft2WayLeft1, '-=1')
         .add(CoinRight2WayRight1, '-=0.8')
-        .add(CoinLeft4WayLeft3, '-=0.6')
+        .add(CoinLeft4WayLeft3, '-=0.5')
 
-        .add(CoinLeft8WayDown2, '-=0.8')
-        .add(CoinRight4WayRight3, '-=0.8')
-        .add(CoinRight8WayDown3, '-=0.6')
+        .add(CoinLeft8WayDown2, '-=1')
+        .add(CoinRight4WayRight3, '-=0.6')
+        .add(CoinRight8WayDown3, '-=0.8')
 
         .add(inCoinLeft7Down, '-=1.0')
         .add(inCoinLeft6Down, '-=0.8')
         .add(inCoinLeft5Down, '-=0.6')
-        //.add(inCoinLeft4Down, '-=0.1')
-        .add(inCoinRight7Down, '-=1.1')
-        .add(inCoinRight6Down, '-=0.1')
-        .add(inCoinRight5Down, '-=0.1')
-        //.add(inCoinRight4Down, '-=0.1')
+        .add(inCoinRight7Down, '-=0.8')
+        .add(inCoinRight6Down, '-=0.8')
+        .add(inCoinRight5Down, '-=0.6')
 
-        .add(inCart4Way2, '-=0.8')
+        .add(inCart4Way2, '-=0.2')
         .add(inCart3Way2, '-=0.4')
         .add(inCart2Way2, '-=0.4')
-        .add(inCart1Way2, '-=0.4')
+        .add(inCart1Way2, '-=0.4');
+
 }
 
-startAnimation();
+var targetInsured = document.getElementById('visible-insured');
+var options = {
+    threshold: 0
+};
+
+var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.intersectionRatio > 0) {
+            animateInsured();
+        }
+    });
+}, options);
+
+if (targetInsured && window.innerWidth > 579) {
+    observer.observe(targetInsured);
+}

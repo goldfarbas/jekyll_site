@@ -35,11 +35,23 @@
     flex-direction: row;
 }
 @media(max-width: 579px){
-    .flex-sm-d-r{
+    .flex-xs-d-r{
         flex-direction: row;
     }
-    .flex-sm-d-c{
+    .flex-xs-d-c{
         flex-direction: column;
+    }
+    .j-xs-content-center{
+        justify-content: center;
+    }
+}
+@media (min-width: 580px) and (max-width: 767px) {
+
+    .j-sm-content-sb{
+        justify-content: space-between;
+    }
+    .j-sm-content-sa{
+        justify-content: space-around;
     }
     .j-sm-content-center{
         justify-content: center;
