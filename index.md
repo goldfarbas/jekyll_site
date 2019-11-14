@@ -555,9 +555,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         <div class="item-partners">
             {% include svg/ethlend.svg %}
         </div></a>
-        <div class="item-partners">
-            {% include svg/signal-ventures.svg %}
-        </div>
+
         <a href="https://www.sendwyre.com/">
         <div class="item-partners">
             {% include svg/wyre.svg %}
@@ -565,6 +563,10 @@ title: bZx - Protocol for tokenized margin trading and lending
         <a href="https://etherisc.com/">
         <div class="item-partners">
             {% include svg/etherisc.svg %}
+        </div></a>
+        <a href="/">
+        <div class="item-partners">
+            {% include svg/signal-ventures.svg %}
         </div></a>
     </div>
 </section>
