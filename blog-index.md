@@ -11,7 +11,7 @@ pagination:
 ---
 <div class="container container-xl">
     <header class="blog-index">
-        <h1 class="mb-50 mt-70 mt-md-30 mb-md-30 mt-sm-30 mb-sm-30 fs-46 lh-120 fw-800 color-black text-center fs-sm-32">bZx Protocol Blog</h1>
+        <h1 class="mb-50 mt-70 mt-md-30 mb-md-30 mt-xs-30 mb-xs-30 fs-46 lh-120 fw-800 color-black text-center fs-xs-32">bZx Protocol Blog</h1>
     </header>
 </div>
 <section class="first-post">
@@ -27,11 +27,11 @@ pagination:
 
                     </div>
                     <div class="article-content">
-                        <h2 class="fs-32 lh-140 fw-700 mb-20 mt- fs-sm-24">{{ newest_post.title }}</h2>
-                        <p class="description fs-16 fs-sm-12 lh-160 mb-20">
+                        <h2 class="fs-32 lh-140 fw-700 mb-20 mt- fs-xs-24">{{ newest_post.title }}</h2>
+                        <p class="description fs-16 fs-xs-12 lh-160 mb-20">
                             {{ newest_post.intro | truncate: 200 }}
                         </p>
-                        <p class="date fs-14 fs-sm-11 lh-180">{{ newest_post.date | date_to_string }}</p>
+                        <p class="date fs-14 fs-xs-11 lh-180">{{ newest_post.date | date_to_string }}</p>
                     </div>
                 </div>
             </a>

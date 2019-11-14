@@ -91,7 +91,7 @@ a {
   }
 }
 @media (min-width: 580px) {
-  .visible-sm {
+  .visible-xs {
     display: none;
   }
 }
@@ -109,19 +109,19 @@ a {
     p{
         font-size: 12px;
     }
-    .hidden-sm{
+    .hidden-xs{
         display: none;
     }
-    .mw-sm-px-400{
+    .mw-xs-px-400{
         max-width: 400px;
     }
-    .mw-sm-px-260{
+    .mw-xs-px-260{
         max-width: 260px;
     }
-    .mw-sm-px-100{
+    .mw-xs-px-100{
         max-width: 100px;
     }
-    .h-sm-auto{
+    .h-xs-auto{
         height: auto;
     }
 }

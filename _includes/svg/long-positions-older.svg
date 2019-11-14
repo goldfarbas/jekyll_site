@@ -1,5 +1,5 @@
 <svg width="1440" height="490" viewBox="0 0 1440 490" fill="none" xmlns="http://www.w3.org/2000/svg" id="lonh-positions"
-    class="svg-absolute bottom-40 mw-100 hidden-sm">
+    class="svg-absolute bottom-40 mw-100 hidden-xs">
     <g>
         <path fill-rule="evenodd" clip-rule="evenodd"
             d="M450 352.295V384H990V352.295C990 295.799 869.117 250 720 250C570.883 250 450 295.799 450 352.295Z"
