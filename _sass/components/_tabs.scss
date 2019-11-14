@@ -1,160 +1,167 @@
-.tab{
-    background-color: #CBE2FF;
-    border-top: 2px solid $primary-color;
-    padding: 27px 0 39px 0;
-    .buttons-tabs{
-        background-color: #FFFFFF;
-        border-radius: 5px;
-        max-width: 322px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 3px 0 2px;
-        button{
-            border: none;
-            background: transparent;
-            font-size: 16px;
-            line-height: 1.25;
-            font-weight: 600;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            color: #003CDA;
-            padding: 7px 29px;
-            cursor: pointer;
-            outline: none;
-            transform-style: preserve-3d;
-            position: relative;
-            &:hover{
-                color: #5B88FF;
-            }
-            &.active{
-                background: #276BFB;
-                border: 1px solid $primary-color;
-                border-radius: 4px;
-                color: #FFFFFF;
-                transform: translateY(-4px);
-                &:after{
-                    content: '';
-                    position: absolute;
-                    width: 100%;
-                    height: 20px;
-                    background-color: #5B88FF;
-                    border: 1px solid $primary-color;
-                    border-radius: 4px;
-                    transform: translateZ(-1px);
-                    bottom: -4px;
-                    left: -1px;
-                }
-                
-            }
-    
+.tab {
+  background-color: #cbe2ff;
+  border-top: 2px solid $primary-color;
+  padding: 27px 0 39px 0;
+  .buttons-tabs {
+    background-color: #ffffff;
+    border-radius: 5px;
+    max-width: 322px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3px 0 2px;
+    button {
+      border: none;
+      background: transparent;
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #003cda;
+      padding: 7px 29px;
+      cursor: pointer;
+      outline: none;
+      transform-style: preserve-3d;
+      position: relative;
+      &:hover {
+        color: #5b88ff;
+      }
+      &.active {
+        background: #276bfb;
+        border: 1px solid $primary-color;
+        border-radius: 4px;
+        color: #ffffff;
+        transform: translateY(-4px);
+        &:after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 20px;
+          background-color: #5b88ff;
+          border: 1px solid $primary-color;
+          border-radius: 4px;
+          transform: translateZ(-1px);
+          bottom: -4px;
+          left: -1px;
         }
+      }
     }
+  }
 }
 
-.tabcontent{
-    display: none;
-    &.active{
-        display: block;
+.tabcontent {
+  display: none;
+  &.active {
+    display: block;
+  }
+  .container-tabs {
+    @media (max-width: 767px) {
+      flex-direction: column;
     }
-    .container-tabs{
-        .item-tabs{
-            position: relative;
-            @media(min-width: 580px){
-                width: calc(100% / 3 - 20px);
-            }
-            @media(max-width: 579px){
-                margin-left: auto;
-                margin-right: auto;
-                padding: 0 15px;
-            }
-            &:before{
-                content: '';
-                position: absolute;
-                width: 2px;
-                background-color: #276BFB;
-                left: 0;
-                right: 0;
-                margin: auto;
-            }
-            &:after{        
-                position: absolute;
-                background-color: transparent;
-                left: 0;
-                right: 0;
-                margin: auto;
-            }
-        }
-        &:first-child{
-            .item-tabs{
-                &:before{
-                    height: 32px;
-                    bottom: -41px;
-                    @media(min-width: 580px){
-                        height: 225px;
-                        bottom: -240px;
-                    }
-                }
-                @media(min-width: 580px){
-                    p{
-                        min-height: 90px;
-                        display: flex;
-                        align-items: center;                    
-                    }
-                    /*&:after{
-                        content: url(/images/icons/coin-long.svg);
-                        bottom: -315px;
-                    }*/
-                }
-            }
-        }
-        &:last-child{           
-            .item-tabs{
-                padding-left: 20px;
-                padding-right: 20px;
-
-                &:before{
-                    height: 32px;                    
-                    @media(min-width: 580px){
-                        bottom: -69px;
-                    }
-                    @media(max-width: 579px){
-                        bottom: -41px;
-                    }
-                }
-                @media(min-width: 580px){
-                    p{
-                        min-height: 68px;
-                        display: flex;
-                        align-items: center;                    
-                    }
-                    /*&:nth-child(2n){
-                        &:after{
-                            content: url(/images/icons/coin-short-even.svg);
-                            bottom: -144px;
-                        }
-                    }
-                    &:nth-child(2n+1){
-                        &:after{
-                            content: url(/images/icons/coin-short-odd.svg);
-                            bottom: -144px;
-                        }
-                    }*/
-                }
-
-
-                &:last-child{
-                    &:after{
-                        /*@media(min-width: 580px){
-                            bottom: -144px;
-                        }*/
-                        @media(max-width: 579px){
-                            content: url(/images/icons/coin-long.svg);
-                            bottom: -125px;
-                        }
-                    }
-                }
-            }
-        }
+    .item-tabs {
+      position: relative;
+      @media (min-width: 768px) {
+        width: calc(100% / 3 - 20px);
+      }
+      @media (max-width: 767px) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        background-color: #276bfb;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      &:after {
+        position: absolute;
+        background-color: transparent;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
     }
+    &:first-child {
+      .item-tabs {
+        &:before {
+          height: 32px;
+          bottom: -41px;
+          @media (min-width: 768px) {
+            height: 225px;
+            bottom: -240px;
+          }
+        }
+        @media (min-width: 767px) {
+          p {
+            min-height: 90px;
+            display: flex;
+            align-items: center;
+          }
+        }
+        @media (max-width: 1109px) and (min-width: 768px) {
+          &:after {
+            content: url(/images/icons/coin-long.svg);
+            bottom: -315px;
+          }
+        }
+      }
+    }
+    &:last-child {
+      .item-tabs {
+        padding-left: 20px;
+        padding-right: 20px;
+        @media (max-width: 848px) {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        &:before {
+          height: 32px;
+          @media (min-width: 768px) {
+            bottom: -69px;
+          }
+          @media (max-width: 767px) {
+            bottom: -41px;
+          }
+        }
+        @media (min-width: 768px) {
+          p {
+            min-height: 68px;
+            display: flex;
+            align-items: center;
+          }
+        }
+        @media (max-width: 1109px) and (min-width: 768px) {
+          &:nth-child(2n) {
+            &:after {
+              content: url(/images/icons/coin-short-even.svg);
+              bottom: -144px;
+            }
+          }
+          &:nth-child(2n + 1) {
+            &:after {
+              content: url(/images/icons/coin-short-odd.svg);
+              bottom: -144px;
+            }
+          }
+        }
+        &:last-child {
+          &:after {
+            @media (max-width: 1110px) and (min-width: 768px) {
+              bottom: -144px;
+            }
+            @media (max-width: 767px) {
+              content: url(/images/icons/coin-long.svg);
+              bottom: -125px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
