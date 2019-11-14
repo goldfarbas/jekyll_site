@@ -18,11 +18,9 @@ import SaferSection             from '../sections/home/safer-section.js';
 
 
 // FAQ
-import FaqSection              from '../sections/faq/faq-section.js';
 
 // 404
 
-import Section from './section.js';
 
 export default {
 

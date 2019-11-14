@@ -2,7 +2,7 @@
 
 // core
 import Pages from './pages.js';
-import inView from '../modules/inView.js';
+// import inView from '../modules/inView.js';
 
 export default class App
 {

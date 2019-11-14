@@ -4,7 +4,6 @@ import Section from '../../core/section.js';
 // import CustomEase from '../../modules/CustomEase';
 import CreateSmoke from '../../modules/smoke.js';
 
-const morphSVGPlugin = MorphSVGPlugin;
 
 export default class SaferSection extends Section {
 
@@ -18,78 +17,6 @@ export default class SaferSection extends Section {
     _setupSection() {
         this.isAnimationFinished = true;
         this.isMobile = false;
-
-        // this._saferRpCoin = document.getElementById('safer-right-pipe-coin');
-
-        // this._saferLpCoin = document.getElementById('safer-left-pipe-coin');
-        // this._saferLpCoin2 = document.getElementById('safer-left-pipe-coin2');
-
-        // this._saferPipe1Coin = document.getElementById('safer-col1-pipe-coin');
-        // this._saferPipe1Coin2 = document.getElementById('safer-col1-pipe-coin2');
-        // this._saferPipe2Coin = document.getElementById('safer-col2-pipe-coin');
-        // this._saferPipe3Coin = document.getElementById('safer-col3-pipe-coin');
-        // this._saferPipe4Coin = document.getElementById('safer-col4-pipe-coin');
-
-        // this._saferCarts = document.querySelectorAll('.safer-cart');
-
-        // this._saferCart1Coin = document.getElementById('safer-cart1-coin');
-        // this._saferCart3Coin = document.getElementById('safer-cart3-coin');
-        // this._saferCart4Coin = document.getElementById('safer-cart4-coin');
-        // this._saferCart5Coin = document.getElementById('safer-cart5-coin');
-        // this._saferCart6Coin = document.getElementById('safer-cart6-coin');
-
-        // this._saferCol1Coin1 = document.getElementById('safer-col1-coin1');
-        // this._saferCol1Coin2 = document.getElementById('safer-col1-coin2');
-        // this._saferCol1Coin3 = document.getElementById('safer-col1-coin3');
-        // this._saferCol1Coin4 = document.getElementById('safer-col1-coin4');
-        // this._saferCol1Coin5 = document.getElementById('safer-col1-coin5');
-
-        // this._saferCol2Coin1 = document.getElementById('safer-col2-coin1');
-        // this._saferCol2Coin2 = document.getElementById('safer-col2-coin2');
-        // this._saferCol2Coin3 = document.getElementById('safer-col2-coin3');
-        // this._saferCol2Coin4 = document.getElementById('safer-col2-coin4');
-
-        // this._saferCol3Coin1 = document.getElementById('safer-col3-coin1');
-        // this._saferCol3Coin2 = document.getElementById('safer-col3-coin2');
-        // this._saferCol3Coin3 = document.getElementById('safer-col3-coin3');
-        // this._saferCol3Coin4 = document.getElementById('safer-col3-coin4');
-
-        // this._saferCol4Coin1 = document.getElementById('safer-col4-coin1');
-        // this._saferCol4Coin2 = document.getElementById('safer-col4-coin2');
-        // this._saferCol4Coin3 = document.getElementById('safer-col4-coin3');
-        // this._saferCol4Coin4 = document.getElementById('safer-col4-coin4');
-
-        // this.saferRpCoinPath = morphSVGPlugin.pathDataToBezier('#safer-rp-path', {align: this._saferRpCoin});
-
-        // this.saferLpCoinPath = morphSVGPlugin.pathDataToBezier('#safer-lp-path', {align: this._saferLpCoin});
-
-        // this.saferPipe1CoinPAth = morphSVGPlugin.pathDataToBezier('#safer-col1-path', {align: this._saferPipe1Coin});
-        // this.saferPipe1CoinPAth2 = morphSVGPlugin.pathDataToBezier('#safer-col1-path2', {align: this._saferPipe1Coin2});
-        // this.saferPipe2CoinPAth = morphSVGPlugin.pathDataToBezier('#safer-col2-path', {align: this._saferPipe2Coin});
-        // this.saferPipe3CoinPAth = morphSVGPlugin.pathDataToBezier('#safer-col3-path', {align: this._saferPipe3Coin});
-        // this.saferPipe4CoinPAth = morphSVGPlugin.pathDataToBezier('#safer-col4-path', {align: this._saferPipe4Coin});
-
-        // this.saferCart1Path = morphSVGPlugin.pathDataToBezier('#safer-cart1-path');
-        // this.saferCart2Path = morphSVGPlugin.pathDataToBezier('#safer-cart2-path');
-        // this.saferCart3Path = morphSVGPlugin.pathDataToBezier('#safer-cart3-path');
-        // this.saferCart4Path = morphSVGPlugin.pathDataToBezier('#safer-cart4-path');
-        // this.saferCart5Path = morphSVGPlugin.pathDataToBezier('#safer-cart5-path');
-        // this.saferCart6Path = morphSVGPlugin.pathDataToBezier('#safer-cart6-path');
-
-
-        // CustomEase.create('saferCart1Enter', 'M0,0 C0.17,0.17 0.16,1 1,1');
-        // CustomEase.create('saferCart2Enter', 'M0,0 C0.17,0.17 0.25,1 1,1');
-        // CustomEase.create('cartOut', 'M0,0 C0.56,0 0.83,0.83 1,1');
-
-        // TweenLite.set(
-        //     [
-        //         this._saferCart1Coin,
-        //         this._saferCart3Coin,
-        //         this._saferCart4Coin,
-        //         this._saferCart5Coin,
-        //     ],
-        //     {transformOrigin: '50% 50%'}
-        // );
 
         this.mobileSmoke = document.getElementById('mobile-smoke');
 
@@ -186,15 +113,9 @@ export default class SaferSection extends Section {
     }
 
     _activate() {
-        // if (this.isMobile) {
-        //     this.cartsMobile();
-        //     return;
-        // }
 
         this.smoke.play();
 
-        // if (this.isAnimationFinished)
-        //     this.startAnim();
     }
 
     _deactivate() {
