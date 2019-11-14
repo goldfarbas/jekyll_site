@@ -108,7 +108,7 @@ section.bg-wave {
             justify-self: center;
         }
 
-        @media (max-width: 579px) {
+        @media (max-width: 767px) {
             grid-template-columns: repeat(2, 1fr);
         }
     }
@@ -411,14 +411,14 @@ section.bg-wave {
 .item-partners {
     text-align: center;
     margin: 25px auto;
-    @media (min-width: 580px) {
+    @media (min-width: 768px) {
         width: 265px;
         &:nth-child(3n + 2) {
             margin-left: 95px;
             margin-right: 95px;
         }
     }
-    @media (max-width: 579px) {
+    @media (max-width: 767px) {
         width: calc(50% - 20px);
         svg {
             max-width: 100%;
@@ -435,8 +435,8 @@ section.bg-wave {
 }
 
 .smoking-tube {
-    margin-top: -240px;
-
+    margin-top: -360px;
+    overflow: hidden;
     #safer-smoke {
         opacity: 0.2;
         position: absolute;

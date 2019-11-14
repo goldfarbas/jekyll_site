@@ -1,11 +1,6 @@
 // core
 import Component from '../core/component.js';
 
-// libs
-// import $ from 'jquery';
-// import {TweenLite} from '../tweenMax.js';
-
-
 export default class Section extends Component
 {
 
@@ -16,7 +11,6 @@ export default class Section extends Component
         // DOM
 
         this._el     = config.element;
-        // this._$el    = $(this._el);
 
         this._y      = 0.0;
         this._height = 0.0;

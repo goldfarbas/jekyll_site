@@ -2,7 +2,7 @@
 layout: post
 title:  "A New, Streamlined Trading Experience on Fulcrum"
 date:   2019-07-23 20:12:46 -0700
-cover: /images/blog/1_qOacYDyqR4cSxl24qnDc-g.gif
+cover: /images/blog/1_qOacYDyqR4cSxl24qnDc-g.png
 canonical: https://medium.com/bzxnetwork/a-new-streamlined-trading-experience-on-fulcrum-5b8a728d6306
 author: Kistner
 metadescription: "As we’ve been in Alpha we’ve been continuously collecting feedback from users, working to iterate the product and bring it to its most polished form."
@@ -27,7 +27,7 @@ Some users had reported that they were unsure what the “Buy Amount” was gett
 
 Many of the details have been condensed, represented visually, and moved to the left side of the pop-up. The “purchase asset” functionality has been directly integrated into the input field. It is now far more intuitive to select which asset you will use to obtain the desired exposure. The pop-up also now explains what will happen in plain language.
 
-![](/images/blog/1_qOacYDyqR4cSxl24qnDc-g.gif)
+![](/images/blog/1_qOacYDyqR4cSxl24qnDc-g.png)
 
 ## Conclusion
 

@@ -18,7 +18,7 @@ body {
 }
 .bg-wave {
   background-repeat: no-repeat;
-  background-position: 50% 101%;
+  background-position: 50% 105%;
   background-size: contain;
   @media (min-width: 580px) {
     background-image: url(/images/icons/background.svg);
@@ -81,7 +81,7 @@ a {
   }
 }
 @media (max-width: 1439px) {
-  .mw-md-100{
+  .mw-md-100 {
     max-width: 100%;
   }
 }
@@ -91,37 +91,31 @@ a {
   }
 }
 @media (min-width: 580px) {
-  .visible-sm {
+  .visible-xs {
     display: none;
   }
 }
 
-.visible-lg{
-    display: none;
+.visible-lg {
+  display: none;
 }
-@media(min-width: 1024px){
-    .visible-lg{
-        display: block;
-    }
+@media (min-width: 1024px) {
+  .visible-lg {
+    display: block;
+  }
 }
 
-@media(max-width: 579px){
+@media (max-width: 579px) {
     p{
         font-size: 12px;
     }
-    .hidden-sm{
+    .hidden-xs{
         display: none;
     }
-    .mw-sm-px-400{
-        max-width: 400px;
-    }
-    .mw-sm-px-260{
-        max-width: 260px;
-    }
-    .mw-sm-px-100{
+    .mw-xs-px-100{
         max-width: 100px;
     }
-    .h-sm-auto{
+    .h-xs-auto{
         height: auto;
     }
 }
@@ -139,9 +133,30 @@ a {
     display: none;
   }
 }
-#coin_1, #coin_2, #cart2-with-coin{
+#coin_1,
+#coin_2,
+#cart2-with-coin {
   opacity: 0;
 }
-#in_cart1_with_coin, #in_cart2_with_coin, #in_cart3_with_coin, #in_cart4_with_coin{
+#in_cart1_with_coin,
+#in_cart2_with_coin,
+#in_cart3_with_coin,
+#in_cart4_with_coin {
   opacity: 0;
+}
+.before-coin {
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+.before-coin-mobile {
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+.container-before-coin {
+  width: 400px;
+  @media (max-width: 991px) {
+    width: 260px;
+  }
 }

@@ -1,7 +1,3 @@
-
-// import bulb from '../../img/particle.png';
-//import //logger from 'js///logger';
-
 class Smoke {
     constructor(x, y, smokeSettings) {
         this.x = x;

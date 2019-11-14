@@ -1,5 +1,5 @@
 section.first-post article {
-    @media screen and (max-width: 580px) {
+    @media screen and (max-width: 767px) {
         display: none;
     }
     
@@ -53,10 +53,11 @@ section.first-post article {
     &-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        @media screen and (max-width: 580px) {
+        @media screen and (max-width: 579px) {
             grid-template-columns: 1fr;
         }
-        @media (min-width: 768px) and (max-width: 1023px) {
+
+        @media (min-width: 580px) and (max-width: 1023px) {
             grid-template-columns: repeat(2, 1fr);
             article:last-child:nth-child(odd),
             .read-more & article:last-child:nth-child(odd) {
@@ -73,7 +74,7 @@ section.first-post article {
             &.first-post {
                 display: none;
 
-                @media screen and (max-width: 580px) {
+                @media screen and (max-width: 767px) {
                     display: block;
                 }
 

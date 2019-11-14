@@ -6,7 +6,9 @@
     &.t-0{
         top: 0;
     }
-
+    &.b-0{
+        bottom: 0;
+    }
     &.t-60{
         top: 60px;
     }
@@ -28,21 +30,6 @@
 }
 
 @media(min-width: 1441px){
-    /*.svg-insured{
-        &:before{
-            content: url(/images/icons/before-insured.svg);
-            position: absolute;
-            left: calc((100% - 1440px) / 2 - 560px);
-            top: 0;
-        }
-        &:after{
-            content: url(/images/icons/before-insured.svg);
-            position: absolute;
-            right: calc((100% - 1440px) / 2 - 560px);
-            top: 0;    
-            transform: rotateY(180deg);
-        }
-    }*/
     .svg-position{
         &:before{
             content: url(/images/icons/before-long-positions.svg);
@@ -73,42 +60,6 @@
             transform: rotateY(180deg);
         }
     }
-    /*.opacity-trumpet{
-        &:before{
-            content: url(/images/icons/before-opacity-trumpet.svg);
-            position: absolute;
-            left: calc((100% - 1440px) / 2 - 560px);
-            bottom: -147px;
-        }
-    }*/
-    .rotate-line{
-        &:before{
-            content: url(/images/icons/before-rotate-line2.svg);
-            position: absolute;
-            left: calc((100% - 1440px) / 2 - 560px);
-            top: -47px;
-        }
-        &:after{
-            content: url(/images/icons/before-rotate-line.svg);
-            position: absolute;
-            right: calc((100% - 1440px) / 2 - 560px);
-            top: 126px;
-        }
-    }
-    /*.rotate-line-2{
-        &:before{
-            content: url(/images/icons/before-rotate-line-2.svg);
-            position: absolute;
-            left: calc((100% - 1440px) / 2 - 560px);
-            bottom: 42px;
-        }
-        &:after{
-            content: url(/images/icons/before-rotate-line-2.svg);
-            position: absolute;
-            right: calc((100% - 1440px) / 2 - 560px);
-            top: 210px;
-        }
-    }*/
     .before-line{
         &:before{
             content: url(/images/icons/before-line.svg);
@@ -125,14 +76,6 @@
     }
 }
 @media(min-width: 1200px){
-    /*.before-smoke{
-        &:before{
-            content: url(/images/icons/smoke.svg);
-            position: absolute;
-            left: 0;
-            top: 120px;
-        }
-    }*/
     .before-integraion{
         position: relative;
         transform-style: preserve-3d;

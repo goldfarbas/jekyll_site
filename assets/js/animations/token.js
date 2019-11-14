@@ -18,7 +18,7 @@ let cart1WithCoin = $('#cart1-with-coin');
 let token_cart2WithCoin = $('#cart2-with-coin');
 
 
-function startAnim() {
+function animateToken() {
 
     const cartsSpeed = 1;
     const rightGreenDelay = 0.3;
@@ -142,4 +142,8 @@ function cart2Tweens() {
     ], { clearProps: 'all' });
 }
 
-startAnim();
+var targetToken = document.getElementById('visible-token');
+
+if (targetToken && window.innerWidth > 579) {
+    animateToken();
+}

@@ -1,8 +1,4 @@
-// core
 import Section      from '../../core/section.js';
-//import { TweenMax, TweenLite, TimelineMax, Power0, Power1 }    from '../../tweenMax.js';
-// import CustomEase from '../../modules/CustomEase';
-// import initHeroBgAsync from '../../modules/heroBgAnimation.js';
 
 const morphSVGPlugin = MorphSVGPlugin;
 

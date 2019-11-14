@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing Fulcrum: Tokenized Margin Made Dead Simple"
 date:   2019-03-25 20:12:46 -0700
-cover: /images/blog/1_rt1z6eCouU5cWdPlJnSMSg.jpeg
+cover: /images/blog/1_qOacYDyqR4cSxl24qnDc-g.png
 canonical: https://medium.com/bzxnetwork/introducing-fulcrum-tokenized-margin-made-dead-simple-e65ccc82393f
 author: Kistner
 metadescription: "bZx is excited to introduce Fulcrum, the most simple and powerful way to lend and margin trade. "

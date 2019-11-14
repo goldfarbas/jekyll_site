@@ -25,7 +25,7 @@
 
 .menu-list-item {
     &:not(:last-child) {
-        padding-right: 67px;
+        padding-right: 55px;
     }
     .link {
         display: flex;
@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 767px) {
     .header-wrapper {
         flex-direction: column;
         .header-content-logo {

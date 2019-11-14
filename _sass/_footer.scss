@@ -25,13 +25,18 @@ footer {
         }
         ul {
             li {
-                letter-spacing: 0.05em;
-                text-transform: uppercase;
+                text-transform: none;
 
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
                 margin-bottom: 20px;
                 &:first-child {
                     color: white;
-                    margin-bottom: 25px;
+                    margin-bottom: 30px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 25px;
                 }
 
                 a {
@@ -62,7 +67,7 @@ footer {
         }
     }
 
-    @media screen and (max-width: 580px) {
+    @media screen and (max-width: 767px) {
         padding-top: 90px;
 
         > .container {
@@ -89,6 +94,14 @@ footer {
 
                     justify-content: center;
                     flex: 1;
+                }
+                ul {
+                    li {
+                        font-size: 16px;
+                        &:first-child {
+                            font-size: 18px;
+                        }
+                    }
                 }
             }
             .social-wrapper {

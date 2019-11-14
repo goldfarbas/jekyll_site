@@ -66,6 +66,9 @@
 .color-white{
     color: #FFFFFF;
 }
+.color-black{
+    color: #283049;
+}
 @media(max-width: 1199px){
     .fs-xl-28{
         font-size: 28px;
@@ -77,6 +80,42 @@
     }
 }
 @media(max-width: 579px){
+    .fs-xs-10{
+        font-size: 10px;
+    }
+    .fs-xs-11{
+        font-size: 11px;
+    }
+    .fs-xs-12{
+        font-size: 12px;
+    }
+    .fs-xs-13{
+        font-size: 13px;
+    }
+    .fs-xs-18{
+        font-size: 18px;
+    }
+    .fs-xs-20{
+        font-size: 20px;
+    }
+    .fs-xs-24{
+        font-size: 24px;
+    }
+    .fs-xs-32{
+        font-size: 32px;
+    }
+    .lh-xs-120{
+        line-height: 1.2;
+    }
+    .lh-xs-130{
+        line-height: 1.3;
+    }
+    .lh-xs-150{
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 767px){
     .fs-sm-10{
         font-size: 10px;
     }
