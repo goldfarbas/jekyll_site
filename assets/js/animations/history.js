@@ -333,6 +333,6 @@ var observer = new IntersectionObserver(entries => {
     });
 }, options);
 
-if (targetHistory) {
+if (targetHistory && window.innerWidth > 1109) {
     observer.observe(targetHistory);
 }

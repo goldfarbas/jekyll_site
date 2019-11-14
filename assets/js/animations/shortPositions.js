@@ -1,9 +1,9 @@
-let shLeftCoin = $('#sh_left_x5F_coin');
-let shRightCoin = $('#sh_right_x5F_coin');
-let shUpCoin = $('#sh_up_x5F_coin');
+let shLeftCoin = $('#sh_left_coin');
+let shRightCoin = $('#sh_right_coin');
+let shUpCoin = $('#sh_up_coin');
 
 let spWheel = $('#sh_wheel');
-let leftArrow = $('#Etherium');
+let leftArrow = $('#etherium');
 let rightArrow = $('#arrow');
 
 let shLeftEye = $('#sh_sp-left-eye');
@@ -13,18 +13,18 @@ let circleRight = $('#sh_sp-right-button');
 let circleLeft = $('#sh_sp-left-button');
 let strokes = $('.box-stroke');
 
-let lenderPath = $('#sh_way_x5F_up');
+let lenderPath = $('#sh_way_up');
 
-let leftWheelPath = $('#sh_way_x5F_left');
-let centerWheelPath = $('#sh_way_x5F_center');
-let rightWheelPath = $('#sh_way_x5F_right');
+let leftWheelPath = $('#sh_way_left');
+let centerWheelPath = $('#sh_way_center');
+let rightWheelPath = $('#sh_way_right');
 
-function startAnimation() {
+function animateShortPositions() {
 
     timeline = new TimelineMax({ repeat: -1 });
-    
+
     TweenLite.set(spWheel, { transformOrigin: 'center center' });
-    TweenLite.set(strokes,{'stroke-dasharray': 40, 'stroke-dashoffset': -40});
+    TweenLite.set(strokes, { 'stroke-dasharray': 40, 'stroke-dashoffset': -40 });
 
     let strokesTl = new TimelineMax({ repeat: -1, repeatDelay: 0.9666, ease: Power4.ease });
 
@@ -222,4 +222,19 @@ function clearParams() {
         { clearProps: 'all' }
     );
 }
-startAnimation();
+var targetShort = document.getElementById('visible-short');
+var options = {
+    threshold: 0
+};
+
+var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.intersectionRatio > 0) {
+            animateShortPositions();
+        }
+    });
+}, options);
+
+if (targetLong && window.innerWidth > 579) {
+    observer.observe(targetShort);
+}
