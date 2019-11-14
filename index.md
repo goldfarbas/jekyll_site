@@ -293,7 +293,7 @@ title: bZx - Protocol for tokenized margin trading and lending
             {% include svg/line.svg %}
             {% include svg/line-mobile.svg %}
         </div>
-        <div class="d-flex j-content-sb m-auto mw-px-400 mw-xs-px-260">
+        <div class="d-flex j-content-sb m-auto container-before-coin">
             {% include svg/before-coin.svg %}
             {% include svg/before-coin.svg %}
             {% include svg/before-coin.svg %}
@@ -377,7 +377,7 @@ title: bZx - Protocol for tokenized margin trading and lending
     <div class="container container-xl pb-xs-55">
     <h2 id="history" class="fs-32 fs-xs-24 lh-140 fw-700 text-center mb-50 mb-xs-40 color-primary">History</h2>
         <div id="2019" class="tabcontent active">
-          <div class="container-tabs d-flex d-row flex-xs-d-c j-content-sb">
+          <div class="container-tabs d-flex j-content-sb">
               <div class="item-tabs mb-60 mb-xs-50">
                   <h4 class="fs-22 fs-xs-18 fw-700 lh-150 color-secondary mb-10">June, 2019</h4>
                   <p class="fs-14 fs-xs-11 lh-160 color-primary mb-xs-15">Fulcrum Launches With Over $750,000 in Liquidity</p>
@@ -391,7 +391,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                   <p class="fs-14 fs-xs-11 lh-160 color-primary mb-xs-15">Over 8000 ETH locked in bZx protocol</p>
               </div>
           </div>
-          <div class="container-tabs d-flex j-content-center d-row flex-xs-d-c">
+          <div class="container-tabs d-flex j-content-center">
               <div class="item-tabs mb-90 mb-xs-50 px-25">
                   <h4 class="fs-22 fs-xs-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
                   <p class="fs-14 fs-xs-11 lh-160 color-primary">bZx Team hosted DeFi Drinks event during Devcon 5 at Osaka, JP</p>
@@ -403,7 +403,7 @@ title: bZx - Protocol for tokenized margin trading and lending
           </div>
         </div>
         <div id="2018" class="tabcontent">
-            <div class="container-tabs d-flex d-row flex-xs-d-c j-content-sb">
+            <div class="container-tabs d-flex j-content-sb">
                 <div class="item-tabs mb-60 mb-xs-50">
                     <h4 class="fs-22 fs-xs-18 fw-700 lh-150 color-secondary mb-10">LATE JAN-EARLY FEB, 2018</h4>
                     <p class="fs-14 fs-xs-11 lh-160 color-primary mb-xs-15">bZx sponsors ETHDenver, attracting initial attention.</p>
@@ -417,7 +417,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <p class="fs-14 fs-xs-11 lh-160 color-primary mb-xs-15">bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet.</p>
                 </div>
             </div>
-            <div class="container-tabs d-flex j-content-center d-row flex-xs-d-c">
+            <div class="container-tabs d-flex j-content-center">
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
                     <h4 class="fs-22 fs-xs-18 fw-700 lh-150 color-secondary mb-10">APRIL 24, 2018</h4>
                     <p class="fs-14 fs-xs-11 lh-160 color-primary">bZx portal and bZx.js library initial release.</p>
@@ -429,8 +429,8 @@ title: bZx - Protocol for tokenized margin trading and lending
             </div>
         </div>
         <div id="2017" class="tabcontent">
-            <div class="container-tabs d-flex d-row flex-xs-d-c j-content-sb"></div>
-            <div class="container-tabs d-flex j-content-center d-row flex-xs-d-c">
+            <div class="container-tabs d-flex j-content-sb"></div>
+            <div class="container-tabs d-flex j-content-center">
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
                     <h4 class="fs-22 fs-xs-18 fw-700 lh-150 color-secondary mb-10">AUGUST 5, 2017</h4>
                     <p class="fs- fs-xs-11 lh-160 color-primary mb-xs-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>

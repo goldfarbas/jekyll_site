@@ -269,55 +269,6 @@ function backThird() {
         .add(basket12Tween)
 }
 
-$('#button2017').click(function () {
-    console.log(this.id);
-
-    switch (currentlyButton) {
-        case 1:
-            backFirst();
-            forwardThird();
-            break;
-        case 2:
-            backSecond();
-            forwardThird();
-            break;
-
-        default:
-    }
-    currentlyButton = 3;
-});
-$('#button2018').click(function () {
-    console.log(this.id);
-    switch (currentlyButton) {
-        case 3:
-            backThird();
-            forwardSecond();
-            break;
-        case 1:
-            backFirst();
-            forwardSecond();
-            break;
-        default:
-    }
-    currentlyButton = 2;
-});
-$('#button2019').click(function () {
-    console.log(this.id);
-    switch (currentlyButton) {
-        case 2:
-            backSecond();
-            forwardFirst();
-            break;
-        case 3:
-            backThird();
-            forwardFirst();
-            break;
-        default:
-
-    }
-    currentlyButton = 1;
-})
-
 var targetHistory = $('#history-section')[0];
 var options = {
     threshold: 0.75
@@ -335,4 +286,52 @@ var observer = new IntersectionObserver(entries => {
 
 if (targetHistory && window.innerWidth > 1109) {
     observer.observe(targetHistory);
+    $('#button2017').click(function () {
+        console.log(this.id);
+    
+        switch (currentlyButton) {
+            case 1:
+                backFirst();
+                forwardThird();
+                break;
+            case 2:
+                backSecond();
+                forwardThird();
+                break;
+    
+            default:
+        }
+        currentlyButton = 3;
+    });
+    $('#button2018').click(function () {
+        console.log(this.id);
+        switch (currentlyButton) {
+            case 3:
+                backThird();
+                forwardSecond();
+                break;
+            case 1:
+                backFirst();
+                forwardSecond();
+                break;
+            default:
+        }
+        currentlyButton = 2;
+    });
+    $('#button2019').click(function () {
+        console.log(this.id);
+        switch (currentlyButton) {
+            case 2:
+                backSecond();
+                forwardFirst();
+                break;
+            case 3:
+                backThird();
+                forwardFirst();
+                break;
+            default:
+    
+        }
+        currentlyButton = 1;
+    })
 }
