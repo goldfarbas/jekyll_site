@@ -172,8 +172,21 @@ title: bZx - Protocol for tokenized margin trading and lending
             </div>
         </div>
     </div>
-    {% include svg/integrations.svg %}
-    {% include svg/integrations-mobile.svg %}
+    <div class="integrations-svg-wrapper">    
+        {% include svg/integrations.svg %}
+        {% include svg/integrations-mobile.svg %}
+        <script>
+            function integrationsResizer(){
+                var integrationsSVG = document.querySelector(".integrations-svg-wrapper > svg.desktop");
+                var newHeight = window.innerWidth * 490/1440;
+                if (newHeight < 490)
+                    integrationsSVG.setAttribute("height", `${newHeight}px`);
+            };
+            integrationsResizer();
+            window.addEventListener("resize", integrationsResizer);
+
+        </script>
+    </div>
 </section>
 
 <section class="text-center bg-primary color-white pt-55 pt-sm-35 mt-sm-r-5 pb-40 p-relative">
