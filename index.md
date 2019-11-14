@@ -60,7 +60,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
     <div class="container container-xl before-integraion after-integraion pb-445 pb-xs-0 z-index-2">
-        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community Interfaces</h2>
+        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Our Ecosystem</h2>
         <div class="d-flex f-wrap j-content-sb j-md-content-sa">
           <div class="wrap-integrations">
                 <div class="item-integrations">
@@ -239,7 +239,7 @@ title: bZx - Protocol for tokenized margin trading and lending
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
         </div>    
-        <div class="token-svg-wrapper"> 
+        <div class="token-svg-wrapper">
             {% include svg/token.svg %}
             {% include svg/token-mobile.svg %}   
             <script>
@@ -533,33 +533,41 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
     <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white text-center mt-70 mt-xs-40 mb-40">Partners & Collaborators</h2>
     <div class="container container-xl d-flex f-wrap j-content-sb a-items-center pb-60 px-50 px-xs-15">
-        <div class="item-partners">
+        <a href="https://kyber.network/"><div class="item-partners">
             {% include svg/kyber-network.svg %}
-        </div>
+        </div></a>
         <div class="item-partners">
             {% include svg/chainlink.svg %}
         </div>
+        <a href="https://chain.link/">
         <div class="item-partners">
             {% include svg/augur.svg %}
-        </div>
+        </div></a>
+        <a href="https://makerdao.com/">
         <div class="item-partners">
             {% include svg/maker.svg %}
-        </div>
+        </div></a>
+        <a href="https://rigoblock.com/">
         <div class="item-partners">
             {% include svg/rigoblock.svg %}
-        </div>
+        </div></a>
+        <a href="https://ethlend.io/">
         <div class="item-partners">
             {% include svg/ethlend.svg %}
-        </div>
-        <div class="item-partners">
-            {% include svg/signal-ventures.svg %}
-        </div>
+        </div></a>
+
+        <a href="https://www.sendwyre.com/">
         <div class="item-partners">
             {% include svg/wyre.svg %}
-        </div>
+        </div></a>
+        <a href="https://etherisc.com/">
         <div class="item-partners">
             {% include svg/etherisc.svg %}
-        </div>
+        </div></a>
+        <a href="/">
+        <div class="item-partners">
+            {% include svg/signal-ventures.svg %}
+        </div></a>
     </div>
 </section>
 <section class="wrapper-subscription">
