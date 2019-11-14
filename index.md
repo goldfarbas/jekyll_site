@@ -581,7 +581,7 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
 </section>
 <section class="wrapper-subscription">
-    {% include subscription.html content="Need help with building on bZx protocol?" buttonText="Contact Us" buttonClass="contact-us-button" %}
+    {% include subscription.html content="Need help with building on the bZx protocol?" buttonText="Contact Us" buttonClass="contact-us-button" %}
 </section>
 
 {% include modal.html %}
