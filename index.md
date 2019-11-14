@@ -533,41 +533,49 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
     <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white text-center mt-70 mt-xs-40 mb-40">Partners & Collaborators</h2>
     <div class="container container-xl d-flex f-wrap j-content-sb a-items-center pb-60 px-50 px-xs-15">
-        <a href="https://kyber.network/"><div class="item-partners">
+        <div class="item-partners">
+            <a href="https://kyber.network/">
             {% include svg/kyber-network.svg %}
-        </div></a>
+            </a>
+        </div>
         <div class="item-partners">
             {% include svg/chainlink.svg %}
         </div>
-        <a href="https://chain.link/">
         <div class="item-partners">
+            <a href="https://chain.link/">
             {% include svg/augur.svg %}
-        </div></a>
-        <a href="https://makerdao.com/">
+            </a>
+        </div>
         <div class="item-partners">
+            <a href="https://makerdao.com/">
             {% include svg/maker.svg %}
-        </div></a>
-        <a href="https://rigoblock.com/">
+            </a>
+        </div>
         <div class="item-partners">
+            <a href="https://rigoblock.com/">
             {% include svg/rigoblock.svg %}
-        </div></a>
-        <a href="https://ethlend.io/">
+            </a>
+        </div>
         <div class="item-partners">
+            <a href="https://ethlend.io/">
             {% include svg/ethlend.svg %}
-        </div></a>
-
-        <a href="https://www.sendwyre.com/">
+            </a>
+        </div>
         <div class="item-partners">
+            <a href="https://www.sendwyre.com/">
             {% include svg/wyre.svg %}
-        </div></a>
-        <a href="https://etherisc.com/">
+            </a>
+        </div>
         <div class="item-partners">
+            <a href="https://etherisc.com/">
             {% include svg/etherisc.svg %}
-        </div></a>
-        <a href="/">
+            </a>
+        </div>
         <div class="item-partners">
+            <a href="/">
             {% include svg/signal-ventures.svg %}
-        </div></a>
+            </a>
+        </div>
     </div>
 </section>
 <section class="wrapper-subscription">
