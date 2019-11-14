@@ -24,9 +24,9 @@ title: bZx - Protocol for tokenized margin trading and lending
         <a href="{{ site.data.social-icons.discord.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
     </div>
     <div class="mt-xl-r-120 mx-auto mw-100 hidden-xs container-xl">
-    {% include svg/hero-image1.svg %}
+    {% include svg/hero-image.svg %}
     </div>
-    {% include svg/system-mobile.svg %}
+    {% include svg/hero-image-mobile.svg %}
 
 </section>
 

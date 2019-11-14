@@ -287,7 +287,6 @@ var observer = new IntersectionObserver(entries => {
 if (targetHistory && window.innerWidth > 1109) {
     observer.observe(targetHistory);
     $('#button2017').click(function () {
-        console.log(this.id);
     
         switch (currentlyButton) {
             case 1:
@@ -304,7 +303,6 @@ if (targetHistory && window.innerWidth > 1109) {
         currentlyButton = 3;
     });
     $('#button2018').click(function () {
-        console.log(this.id);
         switch (currentlyButton) {
             case 3:
                 backThird();
@@ -319,7 +317,6 @@ if (targetHistory && window.innerWidth > 1109) {
         currentlyButton = 2;
     });
     $('#button2019').click(function () {
-        console.log(this.id);
         switch (currentlyButton) {
             case 2:
                 backSecond();
