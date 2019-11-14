@@ -233,14 +233,29 @@ title: bZx - Protocol for tokenized margin trading and lending
             {% include svg/wheel.svg %}
         </div>
     </div>
-    <div class="p-relative mb-20 mb-xs-0 mt-r-180" id="visible-token">    
+    <div class="p-relative mb-20 mb-xs-0 mt-r-180 mt-xs-100" id="visible-token">    
             <div class="container container-xs mb-60 mb-xs-10 mt-lg-r-90 mt-xs-20 p-relative opacity-trumpet">
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-30 color-tertiary">BZRX Governance Token </h3>
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
         </div>    
-        {% include svg/token.svg %}
-        {% include svg/token-mobile.svg %}
+        <div class="token-svg-wrapper"> 
+            {% include svg/token.svg %}
+            {% include svg/token-mobile.svg %}   
+            <script>
+                function tokenResizer(){
+                    var tokenSVG = document.querySelector(".token-svg-wrapper > svg.desktop");
+                    var newHeight = window.innerWidth * 561/1440;
+                    if (newHeight < 561)
+                        tokenSVG.setAttribute("height", `${newHeight}px`);
+                };
+                tokenResizer();
+                window.addEventListener("resize", tokenResizer);
+
+            </script>
+        </div>
+
+
     </div>
 </section>
 
