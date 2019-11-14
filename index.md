@@ -266,8 +266,22 @@ title: bZx - Protocol for tokenized margin trading and lending
         <p class="lh-160 mb-25  fs-sm-12">Taking a short position is more complicated. A short position is betting that something will go down over time. Short positions require escrow, leverage, and margin calls.</p>
         <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x short on fulcrum</a>
     </div>
-    {% include svg/short-positions.svg %}
-    {% include svg/short-positions-mobile.svg %}
+    <div class="short-positions-svg-wrapper">
+        {% include svg/short-positions.svg %}
+        {% include svg/short-positions-mobile.svg %}
+    </div>
+    <script>
+        function shortPositionsResizer(){
+            var shortPositionsSVG = document.querySelector(".short-positions-svg-wrapper > svg.desktop");
+            var newHeight = window.innerWidth * 768/944;
+            if (newHeight < 768)
+                shortPositionsSVG.setAttribute("height", `${newHeight}px`);
+        };
+        shortPositionsResizer();
+        window.addEventListener("resize", shortPositionsResizer);
+
+    </script>
+
     <div class="container container-md px-65 px-sm-15 mb-45">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Leveraged Positions</h3>
         <p class="lh-160 mb-15 fs-sm-12">Leveraged positions use the same mechanics as short positions, but with leveraged positions you’re able to borrow more than you have. For example, you could go 100x long on Ethereum. </p>
