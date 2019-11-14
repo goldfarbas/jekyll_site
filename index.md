@@ -266,7 +266,7 @@ title: bZx - Protocol for tokenized margin trading and lending
             {% include svg/line.svg %}
             {% include svg/line-mobile.svg %}
         </div>
-        <div class="d-flex j-content-sb m-auto mw-px-400 mw-sm-px-260">
+        <div class="d-flex j-content-sb m-auto container-before-coin">
             {% include svg/before-coin.svg %}
             {% include svg/before-coin.svg %}
             {% include svg/before-coin.svg %}
