@@ -33,7 +33,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="text-center pt-55 pt-xs-45 pb-80 pb-xs-30 bg-tertiary">
     <div class="container container-lg p-relative before-product-protocol">
         <h2 class="fs-32 fs-xs-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
-        <div class="d-flex j-content-sb j-lg-content-sa f-wrap">
+        <div class="d-flex j-content-sb j-md-content-sa f-wrap">
             <div class="product-protocol">
                 <div class="item">
                     <a href="https://fulcrum.trade">  
@@ -61,7 +61,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
     <div class="container container-xl before-integraion after-integraion pb-445 pb-xs-0 z-index-2">
         <h2 class="fs-32 fs-xs-24 lh-140 fw-700 text-center mb-45">Community Interfaces</h2>
-        <div class="d-flex f-wrap j-content-sb j-lg-content-sa">
+        <div class="d-flex f-wrap j-content-sb j-md-content-sa">
           <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
@@ -194,7 +194,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         <h2 id="how-it-works" class="fs-32 fs-xs-24 lh-140 fw-700 text-center mb-45">Why Is Decentralized Margin Trading Better?</h2>
     </div>
     <div class="container container-xl">
-        <div class="d-flex j-content-sb j-lg-content-sa j-md-content-center j-xs-content-center f-wrap px-50 px-xs-40">
+        <div class="d-flex j-content-sb j-md-content-sa j-sm-content-center j-xs-content-center f-wrap px-50 px-xs-40">
             <div class="mw-px-280 mb-xs-40">
                 {% include svg/minimal-risk.svg %}
                 <h3 class="fs-24 fs-xs-20 lh-160 mb-15">Minimal Risk</h3>
