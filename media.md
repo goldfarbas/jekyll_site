@@ -7,7 +7,11 @@ title: Media Assets - bZx, Fulcrum and Torque logos
 h1title: bZx Protocol Media Assets
 ---
 
-## bZx Protocol logos
+## bZx branding
+
+![](/images/bzx-brand.png)
+
+[download bZx branding assets](/images/iTokens.zip)  
 
 ## Torque logos
 
