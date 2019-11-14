@@ -539,10 +539,12 @@ title: bZx - Protocol for tokenized margin trading and lending
             </a>
         </div>
         <div class="item-partners">
+          <a href="https://chain.link/">
             {% include svg/chainlink.svg %}
+            </a>
         </div>
         <div class="item-partners">
-            <a href="https://chain.link/">
+            <a href="https://www.augur.net/">
             {% include svg/augur.svg %}
             </a>
         </div>
