@@ -19,7 +19,7 @@ h1title: bZx Branding
             <img data-src="/images/bzx-media/bZx_logo_invert.png" class="logo-invert lazyload"/>
             <img data-src="/images/bzx-media/bZx_symbol.png" class="symbol lazyload"/>
         </div>
-        <a href="/images/bzx-branding.zip" title="download bZx branding assets" class="button button-secondary d-flex j-content-center m-auto">download bZx branding assets</a>  
+        <a href="/images/bzx.zip" title="download bZx branding assets" class="button button-secondary d-flex j-content-center m-auto">download bZx branding assets</a>  
     </div>
     <div class="container  container-md">
         <h2> bZx Branding </h2>
@@ -32,7 +32,7 @@ h1title: bZx Branding
             <img data-src="/images/bzx-media/fulcrum_logo_invert.png" class="logo-invert lazyload"/>
             <img data-src="/images/bzx-media/fulcrum_symbol.png" class="symbol lazyload"/>
         </div>
-        <a href="/images/bzx-branding.zip" title="download Fulcrum branding assets" class="button button-secondary d-flex j-content-center m-auto">download Fulcrum branding assets</a>  
+        <a href="/images/fulcrum.zip" title="download Fulcrum branding assets" class="button button-secondary d-flex j-content-center m-auto">download Fulcrum branding assets</a>  
     </div>
     <div class="container  container-md">
         <h2>Torque Branding</h2>
@@ -45,7 +45,7 @@ h1title: bZx Branding
             <img data-src="/images/bzx-media/torque_logo_invert.png" class="logo-invert lazyload"/>
             <img data-src="/images/bzx-media/torque_symbol.png" class="symbol lazyload"/>
         </div>
-        <a href="/images/bzx-branding.zip" title="download Torque branding assets" class="button button-secondary d-flex j-content-center m-auto">download Torque branding assets</a>  
+        <a href="/images/torque.zip" title="download Torque branding assets" class="button button-secondary d-flex j-content-center m-auto">download Torque branding assets</a>  
     </div>
     <div class="container  container-md">
         <h2>Colors</h2>
