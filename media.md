@@ -53,12 +53,12 @@ h1title: bZx Branding
         </p>
     </div>
     <div class="bzx-colors container container-xl mt-40 mb-70">
-        <div class="color-circle c000085"><span>#000085</span></div> 
-        <div class="color-circle c003CDA"><span>#003CDA</span></div> 
-        <div class="color-circle c276BFB"><span>#276BFB</span></div> 
-        <div class="color-circle c00C0AB"><span>#00C0AB</span></div> 
-        <div class="color-circle c33DFCC"><span>#33DFCC</span></div> 
-        <div class="color-circle c283049"><span>#283049</span></div> 
+        <div class="color-circle c000085"><span class="fs-18 fs-sm-13">#000085</span></div> 
+        <div class="color-circle c003CDA"><span class="fs-18 fs-sm-13">#003CDA</span></div> 
+        <div class="color-circle c276BFB"><span class="fs-18 fs-sm-13">#276BFB</span></div> 
+        <div class="color-circle c00C0AB"><span class="fs-18 fs-sm-13">#00C0AB</span></div> 
+        <div class="color-circle c33DFCC"><span class="fs-18 fs-sm-13">#33DFCC</span></div> 
+        <div class="color-circle c283049"><span class="fs-18 fs-sm-13">#283049</span></div> 
     </div>
     <div class="container  container-md">
         <h2>iTokens Branding</h2>
@@ -67,15 +67,15 @@ h1title: bZx Branding
     </div>
     <div class="itoken container container-xl text-center ">
         <div class="grid mb-30">
-            <div class="itoken-wrapper c000085">{% include svg/itoken_circle_BAT.svg %}</div> 
-            <div class="itoken-wrapper c003CDA">{% include svg/itoken_circle_DAI.svg %}</div> 
-            <div class="itoken-wrapper c276BFB">{% include svg/itoken_circle_ETH.svg %}</div> 
-            <div class="itoken-wrapper c00C0AB">{% include svg/itoken_circle_KNC.svg %}</div> 
-            <div class="itoken-wrapper c33DFCC">{% include svg/itoken_circle_LINK.svg %}</div> 
-            <div class="itoken-wrapper c283049">{% include svg/itoken_circle_REP.svg %}</div> 
-            <div class="itoken-wrapper c283049">{% include svg/itoken_circle_USDC.svg %}</div> 
-            <div class="itoken-wrapper c283049">{% include svg/itoken_circle_WBTC.svg %}</div> 
-            <div class="itoken-wrapper c283049">{% include svg/itoken_circle_ZRX.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_BAT.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_DAI.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_ETH.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_KNC.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_LINK.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_REP.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_USDC.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_WBTC.svg %}</div> 
+            <div class="itoken-wrapper">{% include svg/itoken_circle_ZRX.svg %}</div> 
         </div>
         <a href="/images/iTokens.zip" title="download iTokens branding kit" class="button button-secondary d-flex j-content-center m-auto">download iTokens branding kit</a>  
     </div>
