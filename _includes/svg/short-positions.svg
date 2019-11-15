@@ -318,63 +318,63 @@
 		<path class="sh_st2" d="M420,759v-8H278v8H420z"/>
 		<path class="sh_st25" d="M375,667h37v75.9h-37V667z"/>
 		<path class="sh_st23" d="M369,667h6v75.9h-6V667z"/>
-		<path class="sh_st32" d="M378,670.9h14"/>
-		<path class="sh_st32" d="M394,670.9h3"/>
-		<path class="sh_st32" d="M401,670.9h8"/>
-		<path class="sh_st32" d="M409,674.9h-12"/>
-		<path class="sh_st32" d="M394,674.9h-9"/>
-		<path class="sh_st32" d="M382,674.9h-4"/>
-		<path class="sh_st32" d="M382,678.9h-4 M394,678.9h-3h-2"/>
-		<path class="sh_st32" d="M385,682.9h-7 M394,682.9h-3h-2"/>
-		<path class="sh_st32" d="M401,680.9h-4"/>
-		<path class="sh_st32" d="M382,686.9h-4"/>
-		<path class="sh_st32" d="M387,686.9h-3"/>
-		<path class="sh_st32" d="M392,686.9h-3"/>
-		<path class="sh_st32" d="M382,690.9h-4"/>
-		<path class="sh_st32" d="M382,694.9h-4"/>
-		<path class="sh_st32" d="M387,698.9h-9"/>
-		<path class="sh_st32" d="M382,702.9h-4"/>
-		<path class="sh_st32" d="M380,710.9h-2"/>
-		<path class="sh_st32" d="M382,714.9h-4"/>
-		<path class="sh_st32" d="M380,718.9h-2"/>
-		<path class="sh_st32" d="M382,722.9h-4"/>
-		<path class="sh_st32" d="M380,726.9h-2"/>
-		<path class="sh_st32" d="M382,730.9h-4"/>
-		<path class="sh_st32" d="M386,730.9h-2"/>
-		<path class="sh_st32" d="M380,738.9h-2"/>
-		<path class="sh_st32" d="M382,734.9h-4"/>
-		<path class="sh_st32" d="M386,726.9h-2"/>
-		<path class="sh_st32" d="M390,726.9h-2"/>
-		<path class="sh_st32" d="M398,726.9h-4"/>
-		<path class="sh_st32" d="M398,722.9h-2"/>
-		<path class="sh_st32" d="M394,722.9h-10"/>
-		<path class="sh_st32" d="M386,718.9h-2"/>
-		<path class="sh_st32" d="M390,718.9h-2"/>
-		<path class="sh_st32" d="M396,718.9h-2"/>
-		<path class="sh_st32" d="M400,718.9h-2"/>
-		<path class="sh_st32" d="M387,714.9h-3"/>
-		<path class="sh_st32" d="M392,714.9h-3"/>
-		<path class="sh_st32" d="M384,710.9h-2"/>
-		<path class="sh_st32" d="M388,710.9h-2"/>
-		<path class="sh_st32" d="M392,710.9h-2"/>
-		<path class="sh_st32" d="M396,710.9h-2"/>
-		<path class="sh_st32" d="M400,710.9h-2"/>
-		<path class="sh_st32" d="M404,710.9h-2"/>
-		<path class="sh_st32" d="M384,706.9h-4"/>
-		<path class="sh_st32" d="M391,706.9h-4"/>
-		<path class="sh_st32" d="M397,706.9h-3"/>
-		<path class="sh_st32" d="M387,702.9h-3"/>
-		<path class="sh_st32" d="M397,702.9h-3"/>
-		<path class="sh_st32" d="M402,702.9h-3"/>
-		<path class="sh_st32" d="M407,702.9h-3"/>
-		<path class="sh_st32" d="M392,698.9h-3"/>
-		<path class="sh_st32" d="M397,698.9h-3"/>
-		<path class="sh_st32" d="M387,694.9h-3"/>
-		<path class="sh_st32" d="M392,694.9h-3"/>
-		<path class="sh_st32" d="M397,694.9h-3"/>
-		<path class="sh_st32" d="M402,694.9h-3"/>
-		<path class="sh_st32" d="M387,690.9h-3"/>
-		<path class="sh_st32" d="M392,690.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M378,670.9h14"/>
+		<path class="sh_st32 box-stroke" d="M394,670.9h3"/>
+		<path class="sh_st32 box-stroke" d="M401,670.9h8"/>
+		<path class="sh_st32 box-stroke" d="M409,674.9h-12"/>
+		<path class="sh_st32 box-stroke" d="M394,674.9h-9"/>
+		<path class="sh_st32 box-stroke" d="M382,674.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M382,678.9h-4 M394,678.9h-3h-2"/>
+		<path class="sh_st32 box-stroke" d="M385,682.9h-7 M394,682.9h-3h-2"/>
+		<path class="sh_st32 box-stroke" d="M401,680.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M382,686.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M387,686.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M392,686.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M382,690.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M382,694.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M387,698.9h-9"/>
+		<path class="sh_st32 box-stroke" d="M382,702.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M380,710.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M382,714.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M380,718.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M382,722.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M380,726.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M382,730.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M386,730.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M380,738.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M382,734.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M386,726.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M390,726.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M398,726.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M398,722.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M394,722.9h-10"/>
+		<path class="sh_st32 box-stroke" d="M386,718.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M390,718.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M396,718.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M400,718.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M387,714.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M392,714.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M384,710.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M388,710.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M392,710.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M396,710.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M400,710.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M404,710.9h-2"/>
+		<path class="sh_st32 box-stroke" d="M384,706.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M391,706.9h-4"/>
+		<path class="sh_st32 box-stroke" d="M397,706.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M387,702.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M397,702.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M402,702.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M407,702.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M392,698.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M397,698.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M387,694.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M392,694.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M397,694.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M402,694.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M387,690.9h-3"/>
+		<path class="sh_st32 box-stroke" d="M392,690.9h-3"/>
 		<path class="sh_st33" d="M391,741.9h20v-22L391,741.9z"/>
 		<path class="sh_st33" d="M411,707.9l-33,34h6l27-27.8V707.9z"/>
 		<path class="sh_st29" d="M303,694h11v-34h-11V694z"/>
