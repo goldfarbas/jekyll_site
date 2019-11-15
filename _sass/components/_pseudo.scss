@@ -29,23 +29,6 @@
     }
 }
 
-@media(min-width: 1441px){
-    .svg-position{
-        &:before{
-            content: url(/images/icons/before-long-positions.svg);
-            position: absolute;
-            left: calc((100% - 1440px) / 2 - 560px);
-            bottom: 344px;
-        }
-        &:after{
-            content: url(/images/icons/before-long-positions.svg);
-            position: absolute;
-            right: calc((100% - 1440px) / 2 - 560px);
-            bottom: 344px;
-            transform: rotateY(180deg);
-        }
-    }
-}
 @media(min-width: 1200px){
     .before-integraion{
         position: relative;
