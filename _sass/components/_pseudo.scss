@@ -45,21 +45,6 @@
             transform: rotateY(180deg);
         }
     }
-    .svg-integration{
-        &:before{
-            content: url(/images/icons/before-svg-integrations.svg);
-            position: absolute;
-            left: calc((100% - 1440px) / 2 - 560px);
-            bottom: -6px;
-        }
-        &:after{
-            content: url(/images/icons/before-svg-integrations.svg);
-            position: absolute;
-            right: calc((100% - 1440px) / 2 - 560px);
-            bottom: -6px;   
-            transform: rotateY(180deg);
-        }
-    }
     .before-line{
         &:before{
             content: url(/images/icons/before-line.svg);
