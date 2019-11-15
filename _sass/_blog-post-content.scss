@@ -106,7 +106,7 @@
 
         &:before {
             content: "";
-            border-top: 3px solid #33dfcc;
+            border-top: 3px solid $tertiary-color;
             width: 65px;
             position: absolute;
             top: 0;
@@ -142,7 +142,7 @@
         }
         &:before {
             content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-            color: #33dfcc; /* Change the color */
+            color: $tertiary-color; /* Change the color */
             font-weight: bold; /* If you want it to be bold */
             display: inline-block; /* Needed to add space between the bullet and the text */
             width: 1em; /* Also needed for space (tweak if needed) */
@@ -165,7 +165,7 @@
         }
         &:before {
             content: counter(li) "."; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-            color: #33dfcc; /* Change the color */
+            color: $tertiary-color; /* Change the color */
             font-weight: bold; /* If you want it to be bold */
             display: inline-block; /* Needed to add space between the bullet and the text */
             width: 1em; /* Also needed for space (tweak if needed) */
@@ -176,7 +176,7 @@
 
     hr {
         height: 3px;
-        background: #33dfcc;
+        background: $tertiary-color;
         border: none;
     }
 

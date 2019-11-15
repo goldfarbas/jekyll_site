@@ -33,7 +33,7 @@
     .item{
         color: #FFFFFF;
         hr{            
-            border: 1px solid #33DFCC;
+            border: 1px solid $tertiary-color;
             margin: 15px auto 18px auto;
             @media(min-width: 580px){
                 max-width: 255px;

@@ -198,7 +198,7 @@ section.bg-wave {
         align-items: center;
         justify-content: center;
 
-        background-color: #33dfcc;
+        background-color: $tertiary-color;
         border-radius: 50%;
         @media (min-width: 992px) {
             width: 100px;
