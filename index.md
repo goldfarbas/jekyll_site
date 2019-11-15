@@ -2,7 +2,7 @@
 layout: homepage
 featured-image: /images/ogp.png
 metadescription: "bZx is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications."
-title: bZx - Protocol for tokenized margin trading and lending
+title: bZx - A Protocol For Tokenized Margin Trading and Lending
 ---
 
 <section class="text-center color-primary">
@@ -539,10 +539,12 @@ title: bZx - Protocol for tokenized margin trading and lending
             </a>
         </div>
         <div class="item-partners">
+          <a href="https://chain.link/">
             {% include svg/chainlink.svg %}
+            </a>
         </div>
         <div class="item-partners">
-            <a href="https://chain.link/">
+            <a href="https://www.augur.net/">
             {% include svg/augur.svg %}
             </a>
         </div>
@@ -579,7 +581,71 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
 </section>
 <section class="wrapper-subscription">
-    {% include subscription.html content="Need help with building on bZx protocol?" buttonText="Contact Us" buttonClass="contact-us-button" %}
+    {% include subscription.html content="Need help building on us?" buttonText="Contact Us" buttonClass="contact-us-button" %}
 </section>
 
 {% include modal.html %}
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@id": "https://bzx.network/#organization",
+  "@type": "Corporation",
+  "name": "bZx",
+  "legalName": "bZeroX, LLC",
+  "description": "The most powerful open finance protocol",
+  "url": "https://bzx.network/",
+  "logo": "https://bzx.network/images/bzx-logo-200x200.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Atlanta, GA",
+    "postalCode": "31150",
+    "streetAddress": "P.O. Box 501582"
+  },
+  "email": "hello@bzx.network",
+  "foundingDate": "2017-08-05",
+
+  "sameAs": [
+    "https://www.linkedin.com/company/b0x/",
+    "https://twitter.com/bzxHQ",
+    "https://www.facebook.com/b0xNetwork/",
+    "https://bzx.network/",
+    "https://b0x.network/"
+  ],
+
+  "owns": [
+    {
+      "@type": "WebSite",
+      "name": "Fulcrum",
+      "url": "https://fulcrum.trade"
+    },
+    {
+      "@type": "WebSite",
+      "name": "Torque",
+      "url": "https://torque.loans"
+    }
+  ],
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Tom Bean",
+      "sameAs": "https://twitter.com/tcbean"
+    },
+    {
+      "@type": "Person",
+      "name": "Kyle Kistner",
+      "sameAs": "https://twitter.com/BeTheb0x"
+    }
+  ]
+}
+</script>
+<script type='application/ld+json'>{
+	"@context":"https://schema.org",
+	"@type":"WebSite",
+	"@id":"https://bzx.network/#website",
+	"url":"https://bzx.network",
+	"name":"bZx"
+
+}
+</script>
