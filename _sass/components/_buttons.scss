@@ -53,7 +53,7 @@
         background-color: #003cda;
         color: #fff;
         &:hover {
-            background-color: #276BFB;
+            background-color: $secondary-color-light;
             color: #ffffff;
             transform: translateY(4px);
             &:after {

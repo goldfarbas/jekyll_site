@@ -1,7 +1,7 @@
 .post-content {
     a {
         text-decoration: none;
-        color: #276bfb;
+        color: $secondary-color-light;
         &:hover {
             color: #5b88ff;
             border-bottom: 1px solid rgba(91, 136, 255, 0.5);
