@@ -223,18 +223,7 @@ function clearParams() {
     );
 }
 var targetShort = document.getElementById('visible-short');
-var options = {
-    threshold: 0
-};
 
-var observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.intersectionRatio > 0) {
-            animateShortPositions();
-        }
-    });
-}, options);
-
-if (targetLong && window.innerWidth > 579) {
-    observer.observe(targetShort);
+if (targetShort && window.innerWidth > 579) {
+    animateShortPositions();
 }

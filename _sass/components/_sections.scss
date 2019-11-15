@@ -66,13 +66,16 @@
     @for $i from 1 through 6 {
         &:nth-child(#{$i}) {
             &:after {
-                content: url(/images/icons/item-integration.svg);
+                content: "";
                 position: absolute;
                 left: 0;
                 right: 0;
-                bottom: -26px;
+                bottom: -22px;
                 margin: auto;
                 text-align: center;
+                background-image: url(/images/icons/item-integration.svg);
+                width: 31px;
+                height: 20px;
             }
         }
     }
@@ -80,13 +83,16 @@
         @for $i from 7 through 8 {
             &:nth-child(#{$i}) {
                 &:after {
-                    content: url(/images/icons/item-integration.svg);
+                    content: "";
                     position: absolute;
                     left: 0;
                     right: 0;
-                    bottom: -26px;
+                    bottom: -22px;
                     margin: auto;
                     text-align: center;
+                    background-image: url(/images/icons/item-integration.svg);
+                    width: 31px;
+                    height: 20px;
                 }
             }
         }
@@ -103,7 +109,7 @@ section.bg-wave {
     .buttons-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 15px;
+        grid-column-gap: 15px;
         > a {
             justify-self: center;
         }

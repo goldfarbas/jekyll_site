@@ -5,10 +5,6 @@
 
 @import "_reset";
 @import "_base";
-@import "_blog-index";
-@import "_blog-post";
-@import "_blog-post-content";
-@import "_footer";
 
 @import "base/_flex";
 @import "base/_container";
@@ -26,6 +22,12 @@
 @import "components/_tooltip";
 @import "components/_modal";
 
+
+@import "_blog-index";
+@import "_blog-post";
+@import "_blog-post-content";
+@import "_media-assets";
+@import "_footer";
 
 @import "layout/_navigation";
 
