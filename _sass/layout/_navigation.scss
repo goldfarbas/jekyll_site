@@ -38,7 +38,7 @@
         color: $secondary-color;
         position: relative;
         &:hover {
-            color: #000085;
+            color: $primary-color;
         }
         img {
             position: absolute;
@@ -86,6 +86,17 @@
                 li {
                     margin-bottom: 30px;
                 }
+            }
+            @media screen and (max-height: 580px) {
+                padding-top: 20px;
+                .menu-list {
+                    flex-direction: column;
+            
+                    li {
+                        margin-bottom: 15px;
+                    }
+                }
+            
             }
         }
         .social-wrapper {

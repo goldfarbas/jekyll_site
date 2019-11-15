@@ -1,7 +1,7 @@
 .post-content {
     a {
         text-decoration: none;
-        color: #276bfb;
+        color: $secondary-color-light;
         &:hover {
             color: #5b88ff;
             border-bottom: 1px solid rgba(91, 136, 255, 0.5);
@@ -106,7 +106,7 @@
 
         &:before {
             content: "";
-            border-top: 3px solid #33dfcc;
+            border-top: 3px solid $tertiary-color;
             width: 65px;
             position: absolute;
             top: 0;
@@ -135,14 +135,14 @@
         font-weight: normal;
         font-size: 18px;
         line-height: 180%;
-        color: #000085;
+        color: $primary-color;
         padding-left: 30px;
         @media screen and (max-width: 580px) {
             font-size: 13px;
         }
         &:before {
             content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-            color: #33dfcc; /* Change the color */
+            color: $tertiary-color; /* Change the color */
             font-weight: bold; /* If you want it to be bold */
             display: inline-block; /* Needed to add space between the bullet and the text */
             width: 1em; /* Also needed for space (tweak if needed) */
@@ -158,14 +158,14 @@
         font-weight: normal;
         font-size: 18px;
         line-height: 180%;
-        color: #000085;
+        color: $primary-color;
         padding-left: 30px;
         @media screen and (max-width: 580px) {
             font-size: 13px;
         }
         &:before {
             content: counter(li) "."; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-            color: #33dfcc; /* Change the color */
+            color: $tertiary-color; /* Change the color */
             font-weight: bold; /* If you want it to be bold */
             display: inline-block; /* Needed to add space between the bullet and the text */
             width: 1em; /* Also needed for space (tweak if needed) */
@@ -176,7 +176,7 @@
 
     hr {
         height: 3px;
-        background: #33dfcc;
+        background: $tertiary-color;
         border: none;
     }
 
