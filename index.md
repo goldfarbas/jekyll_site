@@ -261,14 +261,16 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 
 {% include dots.html %}
 
-<section class="text-center color-white p-relative bg-secondary bt-20 bt-xs-14 bt-secondary svg-position pt-40 overflow-x-xl" id="visible-long">
-    <div class="container container-xs pb-445 pb-xs-35 p-relative z-index-2">
+<section class="text-center color-white p-relative bg-secondary bt-20 bt-xs-14 bt-secondary pt-40 overflow-x-xl" id="visible-long">
+    <div class="container container-xs pb-xs-35 p-relative z-index-2">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-25">How bZx Margin Trading Works</h2>
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-15 color-tertiary">Long Positions</h3>
         <p class="lh-160 mb-25">Taking a long position involves a simple swapping of one asset for another. For example, you could swap DAI for ETH because you think ETH will go up in value faster than DAI.</p>
         <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x long on fulcrum</a>
     </div>
-    {% include svg/long-positions.svg %}
+    <div class="long-svg-wrapper">
+        {% include svg/long-positions.svg %}    
+    </div>
     {% include svg/long-positions-mobile.svg %}
 </section>
 
