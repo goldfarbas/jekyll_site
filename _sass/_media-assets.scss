@@ -6,7 +6,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: "logo logo-invert symbol symbol";
-        column-gap: 30px;
+        grid-column-gap: 30px;
         @media screen and (max-width: 767px) {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
@@ -37,7 +37,7 @@
 .bzx-colors {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 30px;
+    grid-column-gap: 30px;
     @media screen and (max-width: 767px) {
         max-width: 580px;
         grid-template-columns: repeat(3, 1fr);
@@ -87,7 +87,7 @@
     .grid {
         display: grid;
         grid-template-columns: repeat(9, 1fr);
-        column-gap: 25px;
+        grid-column-gap: 25px;
         @media screen and (max-width: 767px) {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(3, 1fr);

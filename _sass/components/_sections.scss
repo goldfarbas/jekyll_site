@@ -103,7 +103,7 @@ section.bg-wave {
     .buttons-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 15px;
+        grid-column-gap: 15px;
         > a {
             justify-self: center;
         }
