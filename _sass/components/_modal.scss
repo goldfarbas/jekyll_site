@@ -38,7 +38,7 @@ body.modal-open {
             &:hover {
                 cursor: pointer;
                 svg path {
-                    fill: #33dfcc;
+                    fill: $tertiary-color;
                 }
             }
         }
@@ -50,7 +50,7 @@ body.modal-open {
             color: #fd3a21;
         }
         #mce-success-response{
-            color: #00c0ab;
+            color: $tertiary-color-light;
         }
         form {
             input[type='email'] {
@@ -64,7 +64,7 @@ body.modal-open {
                 min-width: 340px;
                 &:focus{
                     background: #fff;
-                    border: 2px solid #276BFB;
+                    border: 2px solid $secondary-color-light;
                     border-radius: 4px;
                     outline: none;
                     color: $primary-color;

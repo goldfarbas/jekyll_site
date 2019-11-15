@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: media-assets
 permalink: media-assets
 metadescription: bZx Protocol Media Assets - bZx, Fulcrum and Torque logos.
 featured-image: /images/ogp.png
