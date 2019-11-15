@@ -418,25 +418,25 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <div id="2018" class="tabcontent">
             <div class="container-tabs d-flex j-content-sb">
                 <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">LATE JAN-EARLY FEB, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx sponsors ETHDenver, attracting initial attention.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">FEB 11, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Feb 11, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 20, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">April 20, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet.</p>
                 </div>
             </div>
             <div class="container-tabs d-flex j-content-center">
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 24, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">April 24, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary">bZx portal and bZx.js library initial release.</p>
                 </div>
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">MAY 11, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
                 </div>
             </div>
@@ -445,11 +445,11 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             <div class="container-tabs d-flex j-content-sb"></div>
             <div class="container-tabs d-flex j-content-center">
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">AUGUST 5, 2017</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">August 5, 2017</h4>
                     <p class="fs- fs-sm-11 lh-160 color-primary mb-xs-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>
                 </div>
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">SEPTEMBER 29, 2017</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">September 29, 2017</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">First Github commit in the protocol contracts code repository.</p>
                 </div>
             </div>
