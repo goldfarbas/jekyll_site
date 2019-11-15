@@ -1,6 +1,6 @@
 let bigWheel = $('#big-wheel');
 
-var targetHistory = document.getElementById('visible-wheel');
+var targetWheel = document.getElementById('visible-wheel');
 
 
 var options = {
@@ -17,14 +17,7 @@ function startRotateWheel() {
         .add(allAnimation)
 }
 
-var observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.intersectionRatio > 0) {
-            startRotateWheel();
-        }
-    });
-}, options);
 
-if (targetHistory) {
-    observer.observe(targetHistory);
+if (targetWheel && window.innerWidth > 1024) {
+    startRotateWheel();
 }
