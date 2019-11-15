@@ -7,7 +7,7 @@ title: Media Assets - bZx, Fulcrum and Torque logos
 h1title: bZx Branding
 ---
 
-<div class="post-content">
+<div class="post-content media-assets">
     <div class="container  container-md mb-70 post-content">
         <h2> bZx Branding </h2>
         <p>When using the logo, keep all of its proper elements intact and do not alter them in any way. This means that distorting, stretching, changing colors, changing fonts, adding or removing any part of the logo, cobranding with another company or addition of extra effects are forbidden.

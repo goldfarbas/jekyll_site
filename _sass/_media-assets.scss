@@ -1,19 +1,21 @@
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "logo logo-invert symbol symbol";
-    column-gap: 30px;
+.media-assets {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "logo logo-invert symbol symbol";
+        column-gap: 30px;
 
-    .logo {
-        grid-area: logo;
-    }
+        .logo {
+            grid-area: logo;
+        }
 
-    .logo-invert {
-        grid-area: logo-invert;
-    }
+        .logo-invert {
+            grid-area: logo-invert;
+        }
 
-    .symbol {
-        grid-area: symbol;
+        .symbol {
+            grid-area: symbol;
+        }
     }
 }
 
@@ -60,15 +62,13 @@
     }
 }
 
-
-.itoken{
-    .grid{
+.itoken {
+    .grid {
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         column-gap: 25px;
     }
-    
-    &-wrapper{
 
+    &-wrapper {
     }
 }
