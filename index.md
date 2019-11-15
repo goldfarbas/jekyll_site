@@ -572,7 +572,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             </a>
         </div>
         <div class="item-partners">
-            <a href="/">
+            <a href="https://signal.vc/">
             {% include svg/signal-ventures.svg %}
             </a>
         </div>
