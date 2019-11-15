@@ -1,6 +1,6 @@
 <section class="read-more posts pt-30 pb-50">
     <div class="container container-xl">
-        <h2  class="fs-32 lh-140 fw-700 mb-45 mt-20 color-primary fs-xs-24">Read more</h2>
+        <h2  class="fs-32 lh-140 fw-700 mb-45 mt-20 color-primary fs-sm-24">Read more</h2>
         <div class="posts-container">
             {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:3 %}
 

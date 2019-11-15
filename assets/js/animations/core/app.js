@@ -1,8 +1,4 @@
-//import //logger from 'js///logger';
-
-// core
 import Pages from './pages.js';
-import inView from '../modules/inView.js';
 
 export default class App
 {
@@ -11,8 +7,6 @@ export default class App
 
     constructor()
     {
-        // //logger.log('App.constructor()');
-
         // DOM
 
         this._root;
@@ -41,11 +35,6 @@ export default class App
 
     setup()
     {
-        // //logger.log('App.setup()');
-
-        // store main div
-        // this._root = document.getElementById('main');
-
         this._root = document.body;
 
 
@@ -53,8 +42,6 @@ export default class App
             throw new Error('app.js -- No div with ID "main" found.');
 
 
-        // store page ID
-        // this._pageID = (this._root.dataset.pageId || '').toUpperCase();
         this._pageID = "HOME"
         this._page   = Pages[this._pageID];
 
@@ -71,7 +58,6 @@ export default class App
     _setupSections(sections)
     {
         if (!sections) {
-            //logger.error('_setupSections: NO SECTIONS');
             return;
         }
 
@@ -82,10 +68,6 @@ export default class App
             if (this._page[i])
                 this._sections.push(new this._page[i]({ element: section }));
         });
-        // this._sections.push(new this._page[0]({ element: this._root.querySelectorAll('section.safer-section') })); //safer-section
-
-
-        //logger.log(`Sections (${this._numSections}):`, this._sections);
     }
 
 
@@ -93,7 +75,6 @@ export default class App
 
     resize()
     {
-        // //logger.log('App.resize()');
 
         this._width   = document.body.clientWidth;
         this._height  = window.innerHeight;
@@ -114,7 +95,6 @@ export default class App
 
     scroll()
     {
-        // //logger.log('App.scroll()');
 
         const scrollPosition  = window.pageYOffset;
 
@@ -129,7 +109,6 @@ export default class App
 
     _start()
     {
-        // //logger.log('App._start()');
     }
 
     _updateSections()
@@ -140,21 +119,6 @@ export default class App
             if (!section)
                 continue;
             
-            // const inViewKoef = section._el.dataset.inview;
-
-            // if (inView(section._el, inViewKoef))
-            //     section.activate(0.0, this._scrollDirection);
-            // else
-            //     section.deactivate(0.0, this._scrollDirection);
-
-            // I'm not sure I understand the code below, and it seems it works buggy for me
-            // const top     = section.y - this._scrollPosition;
-            // const bottom  = top + section.height;
-
-            // if (top < this._height - 200.0 && bottom > 200.0)
-            //     section.activate(0.0, this._scrollDirection);
-            // else
-            //     section.deactivate(0.0, this._scrollDirection);
         }
     }
 
@@ -163,6 +127,5 @@ export default class App
 
     update()
     {
-        // //logger.log('App.update()');
     }
 }

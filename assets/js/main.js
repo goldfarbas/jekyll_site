@@ -1,16 +1,9 @@
 $(document).ready(function () {
 
-  //logger.log('appReady');
   if (window.app) {
     window.app.setup();
 
   }
-
-  // roundNails();
-  // initHeader();
-
-  // window.onscroll = scroll;
-
 
   if (document.getElementById('modal')) {
     window.modal = new RModal(
