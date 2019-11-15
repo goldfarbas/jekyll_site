@@ -227,7 +227,7 @@ section.bg-wave {
     }
     .container-team {
         background-color: #dcebff;
-        border: 2px solid #000085;
+        border: 2px solid $primary-color;
         padding: 0 30px;
         flex-wrap: wrap;
         @media (min-width: 1220px) {

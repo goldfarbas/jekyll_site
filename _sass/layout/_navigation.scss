@@ -38,7 +38,7 @@
         color: $secondary-color;
         position: relative;
         &:hover {
-            color: #000085;
+            color: $primary-color;
         }
         img {
             position: absolute;
