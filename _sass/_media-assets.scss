@@ -1,0 +1,74 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "logo logo-invert symbol symbol";
+    column-gap: 30px;
+
+    .logo {
+        grid-area: logo;
+    }
+
+    .logo-invert {
+        grid-area: logo-invert;
+    }
+
+    .symbol {
+        grid-area: symbol;
+    }
+}
+
+.bzx-colors {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+    .color-circle {
+        position: relative;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-top: 100%;
+        span {
+            color: #fff;
+            font-size: 18px;
+            line-height: 180%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        &.c000085 {
+            background-color: #000085;
+        }
+        &.c003CDA {
+            background-color: #003cda;
+        }
+        &.c276BFB {
+            background-color: #276bfb;
+        }
+        &.c00C0AB {
+            background-color: #00c0ab;
+        }
+        &.c33DFCC {
+            background-color: #33dfcc;
+        }
+        &.c283049 {
+            background-color: #283049;
+        }
+    }
+}
+
+
+.itoken{
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        column-gap: 25px;
+    }
+    
+    &-wrapper{
+
+    }
+}
