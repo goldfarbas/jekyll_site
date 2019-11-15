@@ -50,7 +50,7 @@
         }
     }
     &.button-secondary {
-        background-color: #003cda;
+        background-color: $secondary-color;
         color: #fff;
         &:hover {
             background-color: $secondary-color-light;

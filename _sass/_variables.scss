@@ -1,11 +1,11 @@
 $primary-color: #000085;
-$secondary-color: #003cda;
+$secondary-color: $secondary-color;
 $tertiary-color: #33dfcc;
 
 $secondary-color-light: #276bfb;
 $tertiary-bg: #00c0ab;
 
-$secondary-border: #003cda;
+$secondary-border: $secondary-color;
 $tertiary-border: #dcebff;
 $white-border: #ffffff;
 
