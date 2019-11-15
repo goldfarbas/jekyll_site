@@ -72,12 +72,12 @@ const defOptionsinContainer = {
 
 function animateInsured() {
 
-    let timeline = new TimelineMax();
-    let timelineRepeat = new TimelineMax({ repeat: -1 });
+    window.insuredTimeline = new TimelineMax();
+    window.insuredTimelineRepeat = new TimelineMax({ repeat: -1 });
     const coinSpeed = 1;
     const coinSpeedinContainer = 0.6;
     const coinSpeedinTrumpet = 0.3;
-
+    
     TweenLite.set(
         [inCoinLeft5, inCoinLeft6, inCoinLeft7, inCoinRight5, inCoinRight6, inCoinRight7],
         { xPercent: 0, yPercent: 0 });
@@ -386,18 +386,18 @@ function animateInsured() {
                 TweenLite.set(in_cart4_with_coin, { xPercent: -44, yPercent: -54 });
                 TweenLite.set([inCoinLeft5, inCoinLeft6, inCoinLeft7, inCoinLeft8], { autoAlpha: 1 });
                 TweenLite.set([inCoinRight5, inCoinRight6, inCoinRight7, inCoinRight8], { autoAlpha: 1 });
-
+            
                 TweenLite.set(inCoinLeft5, defOptionsinContainer);
                 TweenLite.set(inCoinLeft6, defOptionsinContainer);
                 TweenLite.set(inCoinLeft7, defOptionsinContainer);
                 TweenLite.set(inCoinLeft8, { xPercent: -55, yPercent: -80 }); //-90
-
+            
                 TweenLite.set(inCoinRight5, defOptionsinContainer);
                 TweenLite.set(inCoinRight6, defOptionsinContainer);
                 TweenLite.set(inCoinRight7, defOptionsinContainer);
                 TweenLite.set(inCoinRight8, { xPercent: -50, yPercent: -65 }); //-50 -50
-            },
-
+                },
+                
         }
     );
     let inCart2Way2 = moveByPAth(
@@ -440,11 +440,11 @@ function animateInsured() {
         }
     );
 
-    timeline
+    insuredTimeline
         .add(resetPrecentinCoinLeft8)
         .add(resetPrecentinCoinRight8)
 
-    timelineRepeat
+    insuredTimelineRepeat
         .add(CoinLeft1WayLeft1, '-=0.2')
         .add(CoinRight1WayRight1, '-=0.4')
 
@@ -482,18 +482,7 @@ function animateInsured() {
 }
 
 var targetInsured = document.getElementById('visible-insured');
-var options = {
-    threshold: 0
-};
-
-var observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.intersectionRatio > 0) {
-            animateInsured();
-        }
-    });
-}, options);
 
 if (targetInsured && window.innerWidth > 579) {
-    observer.observe(targetInsured);
+    animateInsured();
 }

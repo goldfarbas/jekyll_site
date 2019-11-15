@@ -20,7 +20,7 @@ let basket6Tween;
 let basket7Tween;
 let basket8Tween;
 let basket9Tween;
-let basket10Tween
+let basket10Tween;
 let basket11Tween;
 let basket12Tween;
 
@@ -287,7 +287,9 @@ var observer = new IntersectionObserver(entries => {
 if (targetHistory && window.innerWidth > 1109) {
     observer.observe(targetHistory);
     $('#button2017').click(function () {
-    
+        clearFirstParams();
+        clearSecondParams();
+        clearThirdParams();
         switch (currentlyButton) {
             case 1:
                 backFirst();
@@ -297,12 +299,15 @@ if (targetHistory && window.innerWidth > 1109) {
                 backSecond();
                 forwardThird();
                 break;
-    
+
             default:
         }
         currentlyButton = 3;
     });
     $('#button2018').click(function () {
+        clearFirstParams();
+        clearSecondParams();
+        clearThirdParams();
         switch (currentlyButton) {
             case 3:
                 backThird();
@@ -317,6 +322,9 @@ if (targetHistory && window.innerWidth > 1109) {
         currentlyButton = 2;
     });
     $('#button2019').click(function () {
+        clearFirstParams();
+        clearSecondParams();
+        clearThirdParams();
         switch (currentlyButton) {
             case 2:
                 backSecond();
@@ -327,7 +335,7 @@ if (targetHistory && window.innerWidth > 1109) {
                 forwardFirst();
                 break;
             default:
-    
+
         }
         currentlyButton = 1;
     })

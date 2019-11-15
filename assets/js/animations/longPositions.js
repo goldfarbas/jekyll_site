@@ -66,18 +66,7 @@ function animateLongPositions() {
 }
 
 var targetLong = document.getElementById('visible-long');
-var options = {
-    threshold: 0
-};
-
-var observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.intersectionRatio > 0) {
-            animateLongPositions();
-        }
-    });
-}, options);
 
 if (targetLong && window.innerWidth > 579) {
-    observer.observe(targetLong);
+    animateLongPositions();
 }
