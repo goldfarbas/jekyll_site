@@ -10,7 +10,7 @@ iTokens, such as iDAI or iUSDC, are interest accumulating tokens that continuous
 
 ![](/images/itokens.png)
 
-iTokens constantly accrues value and increases in price because its underlying assets are loaned out to borrowers. Two notable features of iTokens is that it compounds each second (as opposed to per block) and that its exchange rate is capable of falling if the underlying pool suffers a loss. This makes it well suited for risk management derivatives to be built on top.
+iTokens constantly accrue value and increase in price because its underlying assets are loaned out to borrowers. Two notable features of iTokens is that it compounds each second (as opposed to per block) and that its exchange rate is capable of falling if the underlying pool suffers a loss. This makes them well suited for risk management derivatives to be built on top.
 
 ## Minting an iToken
 When the iToken contract for an asset is first deployed, it creates on-chain base protocol order objects corresponding to each level of leverage. The initial margin of the order object defines the level of leverage, and each order object has margin maintenance set at 15%. The length of the loan in the order object is defined as 28 days. When a lender wants to create a loan, they invoke the function mintWithEther when loaning ETH, or if loaning an ERC20, approve a token allowance and invoke the function mint.
