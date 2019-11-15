@@ -1,8 +1,16 @@
-<svg width="1440" height="26" viewBox="0 0 1440 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mw-100  hidden-xs">
-    <g>
-        <path d="M-1 1H1447V25H-1V1Z" fill="#CBE2FF" stroke="#000085" stroke-width="2"/>
-        <path d="M-2 14H1461.98C1462.32 8 1457.9 5 1448.7 5H-2V14Z" fill="white"/>
-        <path d="M602.42 19H586.324" stroke="#000085" stroke-width="2" stroke-linecap="round"/>
-        <path d="M1226.95 19H1178.66" stroke="#000085" stroke-width="2" stroke-linecap="round"/>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="line-svg" width="1440" height="26"
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 26" xml:space="preserve" class="w-100 mw-md-100 hidden-xs">
+	<style type="text/css">
+	.line_st0{fill:#CBE2FF;stroke:#000085;stroke-width:2;}
+	.line_st1{fill:#FFFFFF;}
+	.line_st2{fill:none;stroke:#000085;stroke-width:2;stroke-linecap:round;}
+	</style>
+	<g>
+		<path class="line_st0" d="M-240,1h1920v24H-240V1z"/>
+		<path class="line_st1" d="M-239,14h1918V5H-239V14z"/>
+		<path class="line_st2" d="M602.4,19h-16.1"/>
+		<path class="line_st2" d="M1226.9,19h-48.3"/>
+	</g>
 </svg>
