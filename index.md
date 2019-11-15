@@ -2,7 +2,7 @@
 layout: homepage
 featured-image: /images/ogp.png
 metadescription: "bZx is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications."
-title: bZx - Protocol for tokenized margin trading and lending
+title: bZx - Protocol For Tokenized Margin Trading And Lending
 ---
 
 <section class="text-center color-primary">
