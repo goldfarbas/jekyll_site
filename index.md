@@ -293,9 +293,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         };
         shortPositionsResizer();
         window.addEventListener("resize", shortPositionsResizer);
-
     </script>
-
     <div class="container container-md px-65 px-xs-15 mb-45">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-15 color-tertiary">Leveraged Positions</h3>
         <p class="lh-160 mb-15 fs-sm-12">Leveraged positions use the same mechanics as short positions, but with leveraged positions you’re able to borrow more than you have. For example, you could go 100x long on Ethereum. </p>
@@ -304,10 +302,8 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <a href="https://docs.bzx.network/" class="button button-primary button-md mx-15 d-inline-block">Developers docs</a>
     </div>
     <div>
-        <div class="p-relative before-line">
-            {% include svg/line.svg %}
-            {% include svg/line-mobile.svg %}
-        </div>
+        {% include svg/line.svg %}
+        {% include svg/line-mobile.svg %}
         <div class="d-flex j-content-sb m-auto container-before-coin">
             {% include svg/before-coin.svg %}
             {% include svg/before-coin.svg %}
