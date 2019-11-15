@@ -52,7 +52,7 @@ h1title: bZx Branding
         <p>bZx, fulcrum and torque is associated with the following colors.
         </p>
     </div>
-    <div class="bzx-colors container container-xl  mb-70">
+    <div class="bzx-colors container container-xl mt-40 mb-70">
         <div class="color-circle c000085"><span>#000085</span></div> 
         <div class="color-circle c003CDA"><span>#003CDA</span></div> 
         <div class="color-circle c276BFB"><span>#276BFB</span></div> 
