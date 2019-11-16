@@ -32,7 +32,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 
 <section class="text-center pt-55 pt-xs-45 pb-80 pb-xs-30 bg-tertiary">
     <div class="container container-lg p-relative before-product-protocol">
-        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
+        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products Built on the bZx Protocol</h2>
         <div class="d-flex j-content-sb j-md-content-sa f-wrap">
             <div class="product-protocol">
                 <div class="item">

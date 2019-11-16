@@ -1,0 +1,27 @@
+prose:
+  rooturl: 'collections/_posts'
+  siteurl: 'https://bzx.network'
+  media: 'images/blog'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "intro"
+        field:
+          element: "text"
+          value: "intro for blog index page"
+      - name: "author"
+        field:
+          element: "select"
+          value: "Kistner"
+            - name: "Kistner"
+              value: "Kistner"
+            - name: "Sawinyh"
+              value: "Sawinyh"
