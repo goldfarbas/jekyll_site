@@ -58,8 +58,7 @@ h1title: bZx Branding
     </div>
     <div class="container  container-md">
         <h2>iTokens Branding</h2>
-        <p>bZx, fulcrum and torque is associated with the following colors.
-        </p>
+
     </div>
     <div class="itoken container container-xl text-center ">
         <div class="grid mb-30">
