@@ -15,7 +15,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 </section>
 
 <section class="mt-40 bg-wave text-center">
-    <div class="buttons-wrapper container container-md d-flex f-wrap j-content-sb px-65 px-xs-15"> 
+    <div class="buttons-wrapper container container-md d-flex f-wrap j-content-sb px-65 px-xs-15">
         <a href="{{ site.data.social-icons.twitter.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
         <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10 join-mailing-list">Join mailing list</a>
         <a href="{{ site.data.social-icons.telegram.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
@@ -176,9 +176,9 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>  
-                    <a href="#">
+                    <a href="https://swap.totle.com/">
                         {% include svg/totle.svg %}
-                        <p>Visualize your Decentralized Finance activity</p>
+                        <p>Swap and transfer tokens while automatically getting the best prices from decentralized exchanges.</p>
                     </a>
                 </div>
             </div>
@@ -589,12 +589,12 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             </a>
         </div>
         <div class="item-partners">
-            <a href="/">
+            <a href="https://www.deversifi.com/">
             {% include svg/deversi-fi.svg %}
             </a>
         </div>
         <div class="item-partners">
-            <a href="/">
+            <a href="https://defipulse.com/">
             {% include svg/defi-pulse.svg %}
             </a>
         </div>
