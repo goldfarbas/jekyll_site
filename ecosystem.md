@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: ecosystem
-metadescription: "This page designed as a community-driven resource where people can learn what products and use cases made possible with bZx and Fulcrum."
+metadescription: "This page designed as a community-driven resource where people can learn what products and use cases are made possible with bZx, Fulcrum, and Torque."
 featured-image: /images/ogp.png
 title: "The Ecosystem Collection: Everything Built on bZx"
 h1title: "The Ecosystem Collection: Everything Built on bZx"
