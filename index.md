@@ -574,6 +574,16 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             {% include svg/signal-ventures.svg %}
             </a>
         </div>
+        <div class="item-partners">
+            <a href="/">
+            {% include svg/deversi-fi.svg %}
+            </a>
+        </div>
+        <div class="item-partners">
+            <a href="/">
+            {% include svg/defi-pulse.svg %}
+            </a>
+        </div>
     </div>
 </section>
 <section class="wrapper-subscription">
