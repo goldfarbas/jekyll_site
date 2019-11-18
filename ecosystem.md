@@ -25,11 +25,18 @@ This page designed as a community-driven resource where people can learn what pr
 
 [1inch.exchange](https://1inch.exchange/)
 
+[Paraswap](https://paraswap.io/#/)
+
 ## Rebalancers
 
 [Idle.finance](https://idle.finance/)
 
 [Staked Robo-Advisor](https://staked.us/)
+
+## Asset Management
+
+[Betoken](https://betoken.fund/) - Betoken is an open-source, community-owned, permissionless, and censorship-resistant protocol for connecting capital with talent, and talent with capital.
+
 
 ## Interfaces
 
@@ -47,10 +54,6 @@ This page designed as a community-driven resource where people can learn what pr
 [Structured](https://www.structuredeth.com/) - Convert your Ether into fixed income structured products.
 
 [dDAI](https://ddai.netlify.com/) - enables users to earn interests from lending out DAI on Fulcrum and reinvest those interest automatically into any other asset class using DeFi recipes, i.e., ETH, BTX, KNC, synthetic assets, etc. or a combination of different assets.
-
-[Betoken](https://betoken.fund/) - Betoken is an open-source, community-owned, permissionless, and censorship-resistant protocol for connecting capital with talent, and talent with capital.
-
-
 
 ## Tools for lenders and borrowers
 
