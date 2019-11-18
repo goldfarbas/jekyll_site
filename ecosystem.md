@@ -33,6 +33,8 @@ This page designed as a community-driven resource where people can learn what pr
 
 [Staked Robo-Advisor](https://staked.us/)
 
+[MetaMoneyMarket](https://metamoneymarket.com/)
+
 ## Asset Management
 
 [Betoken](https://betoken.fund/) - Betoken is an open-source, community-owned, permissionless, and censorship-resistant protocol for connecting capital with talent, and talent with capital.
