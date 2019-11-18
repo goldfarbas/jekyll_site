@@ -10,9 +10,9 @@
     }
     @media (min-width: 992px) {
         width: calc(100% / 3 - 40px);
-    }
-    @media (max-width: 767px) {
-        width: 100%;
+        &:last-child{
+            margin: auto;
+        }
     }
     .item-integrations {
         background-color: $light-primary-color;
@@ -63,37 +63,36 @@
             $counter-integration: 8;
         }
     }
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -22px;
+        margin: auto;
+        text-align: center;
+        width: 31px;
+        height: 20px;
+    }
     @for $i from 1 through 6 {
-        &:nth-child(#{$i}) {
+        &:nth-child(#{$i}), &:nth-child(8) {
             &:after {
-                content: "";
-                position: absolute;
-                left: 0;
-                right: 0;
-                bottom: -22px;
-                margin: auto;
-                text-align: center;
                 background-image: url(/images/icons/item-integration.svg);
-                width: 31px;
-                height: 20px;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        &:nth-child(7) {
+            &:after {
+                background-image: url(/images/icons/item-integration.svg);
             }
         }
     }
     @media (max-width: 767px) {
-        @for $i from 7 through 8 {
-            &:nth-child(#{$i}) {
-                &:after {
-                    content: "";
-                    position: absolute;
-                    left: 0;
-                    right: 0;
-                    bottom: -22px;
-                    margin: auto;
-                    text-align: center;
-                    background-image: url(/images/icons/item-integration.svg);
-                    width: 31px;
-                    height: 20px;
-                }
+        width: 100%;
+        &:nth-child(9) {
+            &:after {
+                background-image: url(/images/icons/item-integration.svg);
             }
         }
     }
