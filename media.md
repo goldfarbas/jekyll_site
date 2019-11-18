@@ -72,6 +72,7 @@ h1title: bZx Branding
             <div class="itoken-wrapper">{% include svg/itoken_circle_USDC.svg %}</div>
             <div class="itoken-wrapper">{% include svg/itoken_circle_WBTC.svg %}</div>
             <div class="itoken-wrapper">{% include svg/itoken_circle_ZRX.svg %}</div>
+            <div class="itoken-wrapper">{% include svg/itoken_circle_sUSD.svg %}</div>
         </div>
         <a href="/images/iTokens.zip" title="download iTokens branding kit" class="button button-secondary d-flex j-content-center m-auto">download iTokens branding kit</a>  
     </div>
