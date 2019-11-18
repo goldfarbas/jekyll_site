@@ -32,7 +32,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 
 <section class="text-center pt-55 pt-xs-45 pb-80 pb-xs-30 bg-tertiary">
     <div class="container container-lg p-relative before-product-protocol">
-        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
+        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products Built on the bZx Protocol</h2>
         <div class="d-flex j-content-sb j-md-content-sa f-wrap">
             <div class="product-protocol">
                 <div class="item">
@@ -216,9 +216,10 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 
 <section class="safer-section text-center bg-primary color-white p-relative overflow-xl" id="visible-insured">
     <div class="container container-md pt-55 pt-xs-0 p-relative z-index-2">
-        <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-15 color-tertiary">Insured with the bZx guarantee fund</h3>
-        <p class="lh-160 mb-30">bZx pools loans together in a decentralized clearinghouse. Lenders can lend to a whole pool of people, averaging risk across many borrowers, allowing for a more predictable income stream. All bZx loans are insured with the bZx guarantee fund.</p>
-        <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
+        <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-15 color-tertiary">Everything is Tokenized</h3>
+        <p class="lh-160 mb-30">iTokens and pTokens are powerful financial primitives. iTokens are tokens that constantly increase in value from earning interest, while pTokens are tokens that represent short and leveraged positions. These iTokens and pTokens can be composed into novel financial products, used as collateral for loans, or listed on any exchanges to instantly enable margin lending and trading.</p>
+        <a href="/blog/introducing-fulcrum-tokenized-margin-made-dead-simple" class="button button-primary button-sm d-flex j-content-center m-auto">Fulcrum Specifications</a>
+        <a href="/blog/introducing-torque-borrowing-made-simple" class="button button-primary button-sm d-flex j-content-center m-auto">Torque Specifications</a>
     </div>
     <div class="p-relative svg-insured mt-r-90 mt-xs-60 mb-40 mb-xs-20">
         {% include svg/insured.svg %}
@@ -418,25 +419,25 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <div id="2018" class="tabcontent">
             <div class="container-tabs d-flex j-content-sb">
                 <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">LATE JAN-EARLY FEB, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx sponsors ETHDenver, attracting initial attention.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">FEB 11, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Feb 11, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-xs-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 20, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">April 20, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet.</p>
                 </div>
             </div>
             <div class="container-tabs d-flex j-content-center">
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 24, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">April 24, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary">bZx portal and bZx.js library initial release.</p>
                 </div>
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">MAY 11, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2018</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
                 </div>
             </div>
@@ -445,11 +446,11 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             <div class="container-tabs d-flex j-content-sb"></div>
             <div class="container-tabs d-flex j-content-center">
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">AUGUST 5, 2017</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">August 5, 2017</h4>
                     <p class="fs- fs-sm-11 lh-160 color-primary mb-xs-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>
                 </div>
                 <div class="item-tabs mb-90 mb-xs-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">SEPTEMBER 29, 2017</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">September 29, 2017</h4>
                     <p class="fs-14 fs-sm-11 lh-160 color-primary mb-xs-15">First Github commit in the protocol contracts code repository.</p>
                 </div>
             </div>
@@ -572,7 +573,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             </a>
         </div>
         <div class="item-partners">
-            <a href="/">
+            <a href="https://signal.vc/">
             {% include svg/signal-ventures.svg %}
             </a>
         </div>
