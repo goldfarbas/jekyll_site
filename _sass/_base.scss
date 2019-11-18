@@ -93,6 +93,16 @@ a {
     max-width: 400px;
   }
 }
+.integrations-svg-wrapper {
+  position: relative;
+  bottom: -5px;
+  margin-top: -30px;
+  @media(max-width: 1439px){
+    svg {
+      height: auto;
+    }
+  }
+}
 @media (min-width: 580px) {
   .visible-xs {
     display: none;
@@ -163,13 +173,7 @@ a {
     width: 260px;
   }
 }
-.integrations-svg-wrapper {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: -5px;
-}
+
 .long-svg-wrapper {
   @media (min-width: 580px) {
     margin-top: -30px;
