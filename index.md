@@ -59,7 +59,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 </section>
 
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
-    <div class="container container-xl before-integraion after-integraion pb-445 pb-xs-0 z-index-2">
+    <div class="container container-xl before-integraion after-integraion pb-445 pb-sm-0 z-index-2 integrations-container ">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Our Ecosystem</h2>
         <div class="d-flex f-wrap j-content-sb j-md-content-sa">
             <div class="wrap-integrations">
@@ -190,13 +190,16 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <script>
             function integrationsResizer(){
                 var integrationsSVG = document.querySelector(".integrations-svg-wrapper > svg.desktop");
+                var integrationsContainer = document.querySelector(".integrations-container");
                 var newHeight = window.innerWidth * 490/1440;
                 if (newHeight < 490)
-                    integrationsSVG.setAttribute("height", `${newHeight}px`);
+                    integrationsSVG.setAttribute("height", `${newHeight}px`);                
+                if(window.innerWidth > 768)
+                    integrationsContainer.style.paddingBottom = `${newHeight}px`;
             };
             integrationsResizer();
             window.addEventListener("resize", integrationsResizer);
-
+            
         </script>
     </div>
 </section>
