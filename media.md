@@ -15,9 +15,9 @@ h1title: bZx Branding
     </div>
     <div class="container container-xl text-center mb-70">
         <div class="grid mb-30">
-            <img data-src="/images/bzx-media/bZx_logo.png" class="logo lazyload"/>
-            <img data-src="/images/bzx-media/bZx_logo_invert.png" class="logo-invert lazyload"/>
-            <img data-src="/images/bzx-media/bZx_symbol.png" class="symbol lazyload"/>
+            <img data-src="/images/bzx-media/bZx_logo.svg" class="logo lazyload"/>
+            <img data-src="/images/bzx-media/bZx_logo_invert.svg" class="logo-invert lazyload"/>
+            <img data-src="/images/bzx-media/bZx_symbol.svg" class="symbol lazyload"/>
         </div>
         <a href="/images/bzx.zip" title="download bZx branding assets" class="button button-secondary d-flex j-content-center m-auto">download bZx branding assets</a>  
     </div>
@@ -26,9 +26,9 @@ h1title: bZx Branding
     </div>
     <div class="container container-xl text-center mb-70">
         <div class="grid mb-30">
-            <img data-src="/images/bzx-media/fulcrum_logo.png" class="logo lazyload"/>
-            <img data-src="/images/bzx-media/fulcrum_logo_invert.png" class="logo-invert lazyload"/>
-            <img data-src="/images/bzx-media/fulcrum_symbol.png" class="symbol lazyload"/>
+            <img data-src="/images/bzx-media/fulcrum_logo.svg" class="logo lazyload"/>
+            <img data-src="/images/bzx-media/fulcrum_logo_invert.svg" class="logo-invert lazyload"/>
+            <img data-src="/images/bzx-media/fulcrum_symbol.svg" class="symbol lazyload"/>
         </div>
         <a href="/images/fulcrum.zip" title="download Fulcrum branding assets" class="button button-secondary d-flex j-content-center m-auto">download Fulcrum branding assets</a>  
     </div>
@@ -37,9 +37,9 @@ h1title: bZx Branding
     </div>
     <div class="container container-xl text-center mb-70">
         <div class="grid mb-30">
-            <img data-src="/images/bzx-media/torque_logo.png" class="logo lazyload"/>
-            <img data-src="/images/bzx-media/torque_logo_invert.png" class="logo-invert lazyload"/>
-            <img data-src="/images/bzx-media/torque_symbol.png" class="symbol lazyload"/>
+            <img data-src="/images/bzx-media/torque_logo.svg" class="logo lazyload"/>
+            <img data-src="/images/bzx-media/torque_logo_invert.svg" class="logo-invert lazyload"/>
+            <img data-src="/images/bzx-media/torque_symbol.svg" class="symbol lazyload"/>
         </div>
         <a href="/images/torque.zip" title="download Torque branding assets" class="button button-secondary d-flex j-content-center m-auto">download Torque branding assets</a>  
     </div>
