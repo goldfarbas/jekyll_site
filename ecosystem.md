@@ -3,10 +3,10 @@ layout: page
 permalink: ecosystem
 metadescription: "This page designed as a community-driven resource where people can learn what products and use cases made possible with bZx and Fulcrum."
 featured-image: /images/ogp.png
-title: Awesome bZx protocol ecosystem
-h1title: "bZx protocol ecosystem: community built products on top of bZx and Fulcrum"
+title: "The Ecosystem Collection: Everything Built on bZx"
+h1title: "The Ecosystem Collection: Everything Built on bZx"
 ---
-This page designed as a community-driven resource where people can learn what products and use cases made possible with bZx and Fulcrum. Feel free to [contribute on GitHub](https://github.com/bZxNetwork/jekyll_site/blob/master/ecosystem.md).
+This page designed as a community-driven resource where people can learn what products and use cases are made possible with bZx, Fulcrum, and Torque.  Feel free to [contribute on GitHub](https://github.com/bZxNetwork/jekyll_site/blob/master/ecosystem.md).
 
 ## Wallets
 
