@@ -59,10 +59,10 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 </section>
 
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
-    <div class="container container-xl before-integraion after-integraion pb-445 pb-xs-0 z-index-2">
+    <div class="container container-xl before-integraion after-integraion z-index-2 p-relative">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Our Ecosystem</h2>
         <div class="d-flex f-wrap j-content-sb j-md-content-sa">
-          <div class="wrap-integrations">
+            <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
@@ -170,22 +170,33 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                 </a>
                 </div>
             </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>  
+                    <a href="https://swap.totle.com/">
+                        {% include svg/totle.svg %}
+                        <p>Swap and transfer tokens while automatically getting the best prices from decentralized exchanges.</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="integrations-svg-wrapper">    
         {% include svg/integrations.svg %}
         {% include svg/integrations-mobile.svg %}
-        <script>
+        <!--script>
             function integrationsResizer(){
                 var integrationsSVG = document.querySelector(".integrations-svg-wrapper > svg.desktop");
                 var newHeight = window.innerWidth * 490/1440;
                 if (newHeight < 490)
-                    integrationsSVG.setAttribute("height", `${newHeight}px`);
+                    integrationsSVG.setAttribute("height", `${newHeight}px`);   
             };
             integrationsResizer();
-            window.addEventListener("resize", integrationsResizer);
-
-        </script>
+            window.addEventListener("resize", integrationsResizer);            
+        </script-->
     </div>
 </section>
 
@@ -575,6 +586,16 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <div class="item-partners">
             <a href="https://signal.vc/">
             {% include svg/signal-ventures.svg %}
+            </a>
+        </div>
+        <div class="item-partners">
+            <a href="https://www.deversifi.com/">
+            {% include svg/deversi-fi.svg %}
+            </a>
+        </div>
+        <div class="item-partners">
+            <a href="https://defipulse.com/">
+            {% include svg/defi-pulse.svg %}
             </a>
         </div>
     </div>

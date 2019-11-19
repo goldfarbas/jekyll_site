@@ -86,12 +86,12 @@
 .itoken {
     .grid {
         display: grid;
-        grid-template-columns: repeat(9, 1fr);
+        grid-template-columns: repeat(10, 1fr);
         grid-column-gap: 25px;
         @media screen and (max-width: 767px) {
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-gap: 30px;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 15px;
         }
     }
 
