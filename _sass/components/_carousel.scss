@@ -30,23 +30,23 @@
     border-top: 2px solid $primary-color;
     color: $primary-color;
     padding: 90px 0 30px 0;
-    svg{
-        max-height: 64px;
+    svg {
+      max-height: 64px;
     }
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    &.fulcrum{
-        background-image: url(/images/icons/bg-fulcrum-logo.svg);
-        &:hover{
-            background-image: none;
-        }
+    &.fulcrum {
+      background-image: url(/images/icons/bg-fulcrum-logo.svg);
+      &:hover {
+        background-image: none;
+      }
     }
-    &.torque{
-        background-image: url(/images/icons/bg-torque-logo.svg);
-        &:hover{
-            background-image: url(/images/icons/bg-torque-logo-hover.svg);
-        }
+    &.torque {
+      background-image: url(/images/icons/bg-torque-logo.svg);
+      &:hover {
+        background-image: url(/images/icons/bg-torque-logo-hover.svg);
+      }
     }
     &:after {
       content: "";
@@ -57,8 +57,8 @@
       bottom: -15px;
       left: 0;
     }
-    @media(max-width: 579px){
-        padding: 45px 15px 30px 15px;
+    @media (max-width: 579px) {
+      padding: 45px 15px 30px 15px;
     }
     p {
       font-size: 16px;
@@ -84,6 +84,20 @@
       &.circle-secondary {
         border: 1px solid $primary-color;
         background-color: $secondary-color;
+      }
+    }
+  }
+  &:hover {
+    .container-circle {
+      .circle {
+        &.circle-tertiary {
+          border: 1px solid $primary-color;
+          background-color: $secondary-color;
+        }
+        &.circle-secondary {
+          border: 1px solid $primary-color;
+          background-color: $tertiary-color;
+        }
       }
     }
   }
