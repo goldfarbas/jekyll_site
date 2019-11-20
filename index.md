@@ -35,7 +35,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products Built on the bZx Protocol</h2>
         <div class="d-flex j-content-sb j-md-content-sa f-wrap">        
             <div class="product-protocol">
-            <a href="https://fulcrum.trade"> 
+            <a href="https://fulcrum.trade">
                 <div class="container-circle">
                     <div class="circle circle-tertiary"></div>
                     <div class="circle circle-secondary"></div>      
@@ -75,7 +75,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
     <div class="container container-xl text-center">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-40 mb-xs-20">Our Ecosystem</h2>
-        <a href="#" class="button button-secondary button-xs d-flex j-content-center mx-auto mb-40 mb-xs-30">Explore</a>
+        <a href="/ecosystem" class="button button-secondary button-xs d-flex j-content-center mx-auto mb-40 mb-xs-30">Explore</a>
     </div>
     <div class="container container-xl before-integraion after-integraion z-index-2 p-relative">
         <div class="d-flex f-wrap j-content-sb j-md-content-sa">
