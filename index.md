@@ -40,12 +40,14 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle circle-tertiary"></div>
                     <div class="circle circle-secondary"></div>      
                     <div class="circle circle-secondary"></div>      
-                </div>                 
-                <div class="item fulcrum">
-                    {% include svg/fulcrum-logo.svg %}
-                    <p class="lh-160 mt-55 mt-xs-30">DeFi margin trading and lending platform</p>
-                    <div class="circle bottom left"></div>
-                    <div class="circle bottom right"></div>  
+                </div>    
+                <div class="fulcrum">
+                    <div class="item">
+                        {% include svg/fulcrum-logo.svg %}
+                        <p class="lh-160 mt-55 mt-xs-30">DeFi margin trading and lending platform</p>
+                        <div class="circle bottom left"></div>
+                        <div class="circle bottom right"></div>  
+                    </div>
                 </div>
             </a>
             </div>
@@ -56,11 +58,13 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle circle-tertiary"></div>      
                 </div>
                 <a href="https://torque.loans">
-                    <div class="item torque">            
-                        {% include svg/torque-logo.svg %}
-                        <p class="lh-160 mt-55 mt-xs-30">Indefinite-term loans and fixed interest rates</p>
-                        <div class="circle bottom left"></div>
-                        <div class="circle bottom right"></div>      
+                    <div class="torque">
+                        <div class="item">            
+                            {% include svg/torque-logo.svg %}
+                            <p class="lh-160 mt-55 mt-xs-30">Indefinite-term loans and fixed interest rates</p>
+                            <div class="circle bottom left"></div>
+                            <div class="circle bottom right"></div>      
+                        </div>
                     </div>
                 </a>
             </div>
