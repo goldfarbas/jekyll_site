@@ -60,3 +60,9 @@ This page designed as a community-driven resource where people can learn what pr
 ## Tools for lenders and borrowers
 
 [Helpful Bro Loan Bot](https://t.me/HelpfulBroLoanTrackerBot) - Helpful Loan Tracker Bot for Telegram will send you important updates for DeFi loans that you want to track
+
+## Analytics Dashboards
+
+[Loanscan](https://loanscan.io/)
+
+[Earncryptointerest.com](https://earncryptointerest.com/fulcrum-19.html)  
