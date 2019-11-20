@@ -44,7 +44,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                 <div class="fulcrum">
                     <div class="item">
                         {% include svg/fulcrum-logo.svg %}
-                        <p class="lh-160 mt-55 mt-xs-30">DeFi margin trading and lending platform</p>
+                        <p class="lh-160 mt-55 mt-xs-30">DeFi Margin Lending and Trading Platform</p>
                         <div class="circle bottom left"></div>
                         <div class="circle bottom right"></div>  
                     </div>
@@ -61,7 +61,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="torque">
                         <div class="item">            
                             {% include svg/torque-logo.svg %}
-                            <p class="lh-160 mt-55 mt-xs-30">Indefinite-term loans and fixed interest rates</p>
+                            <p class="lh-160 mt-55 mt-xs-30">Indefinite-term Loans with Fixed Interest Rates</p>
                             <div class="circle bottom left"></div>
                             <div class="circle bottom right"></div>      
                         </div>
