@@ -121,6 +121,13 @@
         max-width: 138px;
         min-width: 138px;
     }
+    &.button-xs {
+        max-width: 116px;
+        min-width: 116px;
+        @media (max-width: 579px) {
+            font-size: 10px;
+        }
+    }
     &:hover {
         background-color: $secondary-color;
         color: #ffffff;
