@@ -59,8 +59,11 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 </section>
 
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
+    <div class="container container-xl text-center">
+        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-40 mb-xs-20">Our Ecosystem</h2>
+        <a href="#" class="button button-secondary button-xs d-flex j-content-center mx-auto mb-40 mb-xs-30">Explore</a>
+    </div>
     <div class="container container-xl before-integraion after-integraion z-index-2 p-relative">
-        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Our Ecosystem</h2>
         <div class="d-flex f-wrap j-content-sb j-md-content-sa">
             <div class="wrap-integrations">
                 <div class="item-integrations">
