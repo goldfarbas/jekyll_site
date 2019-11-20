@@ -1,0 +1,27 @@
+<svg version="1.1" id="Layer_1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 445 272" style="enable-background:new 0 0 445 272;" xml:space="preserve">
+    <style type="text/css">
+	.fulcrum-st0{fill:#DCEBFF;}
+	.fulcrum-st1{clip-path:url(#SVGID_2_);}
+	.fulcrum-st2{fill:#FFFFFF;}
+	.fulcrum-st3{fill:#E9F4FF;}
+    </style>
+    <rect x="1" y="1" class="fulcrum-st0" width="443" height="270"/>
+    <g>
+        <defs>
+            <rect id="SVGID_1_" x="2" y="2" width="441" height="268"/>
+        </defs>
+        <clipPath id="SVGID_2_">
+            <use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+        </clipPath>
+        <g class="fulcrum-st1">
+            <path class="fulcrum-st2" d="M387,98.6l93.1-92.8c23-23,7.4-62.3-25.2-63.2L22.5-68.7c-20.6-0.5-37.7,15.9-38,36.5l-6.5,452.5
+			c-0.3,20.6,16.4,37.5,37,37.5h143.6c9.8,0,19.2-3.9,26.1-10.8L407,225.6c14-13.9,14.6-36.4,1.3-51l-22.6-25
+			C372.5,135,373,112.5,387,98.6z"/>
+            <path class="fulcrum-st3" d="M136-97.2L84-52c-7.6,6.6-17,10.8-27,11.9L-256.2-3.1c-24.5,2.9-43.3,23.3-44.1,48l-7.2,217.8
+			c-0.6,17.2,7.7,33.5,22,43.1l34.6,23.4c20.1,13.6,47,10.8,63.9-6.6L-3.8,133.7c19.2-19.7,50.7-20.3,70.5-1.2l54.2,52
+			c19.6,18.8,50.7,18.5,69.9-0.6l111-110.5c19.6-19.5,19.6-51.3,0-70.8l-97.7-97.4C185.5-113.4,155.8-114.4,136-97.2z"/>
+        </g>
+    </g>
+</svg>

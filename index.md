@@ -30,29 +30,39 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 
 </section>
 
-<section class="text-center pt-55 pt-xs-45 pb-80 pb-xs-30 bg-tertiary">
+<section class="text-center pt-55 pt-xs-45 pb-120 pb-sm-30 bg-tertiary">
     <div class="container container-lg p-relative before-product-protocol">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products Built on the bZx Protocol</h2>
-        <div class="d-flex j-content-sb j-md-content-sa f-wrap">
+        <div class="d-flex j-content-sb j-md-content-sa f-wrap">        
             <div class="product-protocol">
-                <div class="item">
-                    <a href="https://fulcrum.trade">  
-                        <img data-src="/images/carousel/fulcrum.jpg" class="lazyload item-img">
-                    </a>
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-xs-0">Fulcrum</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
+            <a href="https://fulcrum.trade"> 
+                <div class="container-circle">
+                    <div class="circle circle-tertiary"></div>
+                    <div class="circle circle-secondary"></div>      
+                    <div class="circle circle-secondary"></div>      
+                </div>                 
+                <div class="item fulcrum">
+                    {% include svg/fulcrum-logo.svg %}
+                    <p class="lh-160 mt-55 mt-xs-30">DeFi margin trading and lending platform</p>
+                    <div class="circle bottom left"></div>
+                    <div class="circle bottom right"></div>  
                 </div>
+            </a>
             </div>
             <div class="product-protocol">
-                <div class="item">
-                    <a href="https://torque.loans">
-                        <img data-src="/images/carousel/torque.jpg" class="lazyload item-img">
-                    </a>
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-xs-0">Torque</h3>
-                    <p class="lh-160">Indefinite-term loans and fixed interest rates</p>
+                <div class="container-circle">
+                    <div class="circle circle-tertiary"></div>
+                    <div class="circle circle-secondary"></div>      
+                    <div class="circle circle-tertiary"></div>      
                 </div>
+                <a href="https://torque.loans">
+                    <div class="item torque">            
+                        {% include svg/torque-logo.svg %}
+                        <p class="lh-160 mt-55 mt-xs-30">Indefinite-term loans and fixed interest rates</p>
+                        <div class="circle bottom left"></div>
+                        <div class="circle bottom right"></div>      
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -189,7 +199,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
     </div>
     <div class="integrations-svg-wrapper">    
         {% include svg/integrations.svg %}
-        {% include svg/integrations-mobile.svg %}
+        {% include svg/integrations-mobile.svg %}        
         <!--script>
             function integrationsResizer(){
                 var integrationsSVG = document.querySelector(".integrations-svg-wrapper > svg.desktop");
