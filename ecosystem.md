@@ -27,6 +27,8 @@ This page designed as a community-driven resource where people can learn what pr
 
 [Paraswap](https://paraswap.io/#/)
 
+[Bamboo Relay](https://bamboorelay.com/)
+
 ## Rebalancers
 
 [Idle.finance](https://idle.finance/)
