@@ -78,7 +78,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <a href="/ecosystem" class="button button-secondary button-xs d-flex j-content-center mx-auto mb-40 mb-xs-30">Explore</a>
     </div>
     <div class="container container-xl before-integraion after-integraion z-index-2 p-relative">
-        <div class="d-flex f-wrap j-content-sb j-md-content-sa">
+        <div class="container-integrations">
             <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
@@ -185,6 +185,18 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                 {% include svg/portfolio-defiprime.svg %}
                 <p>DeFi portfolio tracker & reporting tool for investors</p>
                 </a>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>  
+                    <a href="#">
+                        {% include svg/paraswap.svg %}
+                        <p>Visualize your Decentralized Finance activity</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
