@@ -193,9 +193,9 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>  
-                    <a href="#">
+                    <a href="https://paraswap.io/">
                         {% include svg/paraswap.svg %}
-                        <p>Visualize your Decentralized Finance activity</p>
+                        <p>ParaSwap aggregates multiple decentralized exchanges.</p>
                     </a>
                 </div>
             </div>
