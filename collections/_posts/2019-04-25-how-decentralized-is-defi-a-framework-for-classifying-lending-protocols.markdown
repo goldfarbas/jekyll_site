@@ -17,7 +17,7 @@ Presented here is a description of prominent DeFi lending protocols and a framew
 The components common between all DeFi lending protocols include custody, price feeds, initiation of margin calls, provision of margin call liquidity, interest rate determination, and protocol development. Based on the number of these components that are decentralized a category on the decentralization continuum is assigned. This categorization system while simple is surprisingly powerful at capturing the degree of control the teams behind the protocols have over held assets.
 
 ### Categories
-![](//images/blog/infographic_infographic.png)
+![](/images/blog/infographic_infographic.png)
 
 **CeFi:** CeFi products are custodial, use centralized price feeds, initiate margin calls centrally, centrally determine interest rates, and centrally provide liquidity for their margin calls. Examples include SALT, BlockFi, Nexo, and Celsius.
 
