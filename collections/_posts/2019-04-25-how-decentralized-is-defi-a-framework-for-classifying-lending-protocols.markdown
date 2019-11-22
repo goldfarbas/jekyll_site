@@ -17,7 +17,7 @@ Presented here is a description of prominent DeFi lending protocols and a framew
 The components common between all DeFi lending protocols include custody, price feeds, initiation of margin calls, provision of margin call liquidity, interest rate determination, and protocol development. Based on the number of these components that are decentralized a category on the decentralization continuum is assigned. This categorization system while simple is surprisingly powerful at capturing the degree of control the teams behind the protocols have over held assets.
 
 ### Categories
-![](//images/blog/1_vli9y75nD1bRN3f2DOzZNA.png)
+![](//images/blog/infographic_infographic.png)
 
 **CeFi:** CeFi products are custodial, use centralized price feeds, initiate margin calls centrally, centrally determine interest rates, and centrally provide liquidity for their margin calls. Examples include SALT, BlockFi, Nexo, and Celsius.
 
@@ -27,7 +27,7 @@ The components common between all DeFi lending protocols include custody, price 
 
 **Degree 3 DeFi:** These DeFi products are non-custodial, have permissionless initiation of margin calls, and permissionless provision of margin call liquidity, while centrally administering price feeds, centrally controlling interest rates, and centrally controlling platform developments and updates. Examples include Compound, MakerDAO.
 
-**Degree 4 DeFi:** These DeFi products are non-custodial, have permissionless margin calls, permissionless provision of margin call liquidity, and decentralized price feeds, but centrally determine interest rates and centrally control platform developments and updates. Examples include Fulcrum and dYdX.
+**Degree 4 DeFi:** These DeFi products are non-custodial, have permissionless margin calls, permissionless provision of margin call liquidity, and decentralized price feeds, but centrally determine interest rates and centrally control platform developments and updates. Examples include Fulcrum, Torque, and dYdX.
 
 **Degree 5 DeFi:** These DeFi products are non-custodial, have permissionless margin calls, permissionless provision of margin call liquidity, decentralized price feeds, and decentralized interest rate determination, but centrally control platform developments & updates. Examples include bZx.
 
@@ -49,6 +49,8 @@ The components common between all DeFi lending protocols include custody, price 
 
 **Development:** The development of the Dharma core contracts and underwriting contracts are undertaken by Dharma itself. The underwriting contracts are open source and loan origination contracts are closed source.
 Note: Dharma has recently revealed that it plans to move to a MakerDAO style liquidation mechanism. This would greatly increase the level of decentralization.
+
+**Update:** Dharma has pivoted to become a Compound relay that offers interest rate swaps, so this description only covers Dharma Lever v1.0. 
 
 ![](/images/blog/1_-PePqztSlwuFjK6uYeA7Pw.png)
 
@@ -104,6 +106,8 @@ Initiating Margin Calls: Margin monitoring and margin call initiation is permiss
 
 **Development:** Compound contracts are centrally developed and open source. The v1 contracts are not mutable except for the interest rate logic contracts while the v2 contracts are mutable. The v2 protocol is made up of a series of cToken contracts. In the beginning, Compound will have central control over the cToken contracts, but control will be ceded to a cToken DAO that can change the contracts with a time delay of 48 hours.
 
+**Update**: Compound has recently moved their contracts behind a timelock.
+
 ### MakerDAO
 
 **Custody:** MakerDAO smart contracts are open source and non-custodial from the point of loan origination.
@@ -117,7 +121,7 @@ Initiating Margin Calls: Margin monitoring and margin call initiation is permiss
 
 **Development:** MakerDAO contracts are centrally developed and open source. The contracts are not mutable. The release of MCD will require migration to a new contract.
 
-![](/images/blog/1_wMor2vi_lwwTP-8jtaJzHg.png)
+![](/images/blog/infographic_degree_4.png)
 
 ### Fulcrum
 
@@ -130,7 +134,11 @@ Initiating Margin Calls: Margin monitoring and margin call initiation is permiss
 
 **Interest Rates:** The bZx team controls the interest rate model parameters, allowing the rates to effectively be set centrally. There are plans to increase the decentralization of this by allowing token holders to set rates in the future.
 
-**Development:** Fulcrum contracts are centrally developed and open source. The contracts are mutable with a 28-day time lock on core functions.
+**Development:** Fulcrum contracts are centrally developed and open source. The contracts are mutable with a 2-day time lock on core functions.
+
+## Torque
+
+All details for https://torque.loans are the same as for Fulcrum as they share the same liquidity pool and contracts.  
 
 ### dYdX
 
@@ -144,7 +152,9 @@ Initiating Margin Calls: Margin monitoring and margin call initiation is permiss
 
 **Interest Rates:** dYdX sets the interest rate model parameters, giving them central control over the interest rates.
 
-**Development:** The dYdX smart contracts are centrally developed and closed source. The team reports that the contracts will be verified on Etherscan shortly.
+**Development:** The dYdX smart contracts are centrally developed and closed source. The team reports that the contracts will be verified on Etherscan shortly. 
+
+**Update:** dYdX has moved their contracts behind a two day timelock. 
 
 ![](/images/blog/1_CIY85ecsmvd7pFoinVb0tQ.png)
 
