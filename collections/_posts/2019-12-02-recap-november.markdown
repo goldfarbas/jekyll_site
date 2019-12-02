@@ -65,6 +65,8 @@ sUSD is live on Torque and Fulcrum for borrowing and lending, and we are going t
 - [DeFi Lending With Fulcrum](https://www.publish0x.com/the-part-time-economist/defi-lending-fulcrum-xmgxgn)
 - [Decentralized Margin Lending and Borrowing with bZx Protocol](https://www.podomatic.com/podcasts/laptopradio/episodes/2019-11-17T21_41_14-08_00) - Kyle Kistner was live on KZSU  Stanford 90.1 FM, a Stanford University radio station, talking about #DeFi, bZx, and Fulcrum
 - [What is the difference between Compound’s cTokens and Fulcrum’s iTokens?](https://medium.com/totle/ctokens-vs-itokens-d7d0186da3c0)
-- Podcast: [Chain Reaction - bZx's Kyle Kistner: Exploring The Protocol for Tokenized Margin Trading and Lending](https://podcasts.apple.com/us/podcast/bzxs-kyle-kistner-exploring-protocol-for-tokenized/id1438148082?i=1000458022043). Kyle Kistner joined Tom Shaughnessy on Chain Reaction podcast and discussed the products built on the bZx Protocol.
+- [Chain Reaction - bZx's Kyle Kistner: Exploring The Protocol for Tokenized Margin Trading and Lending](https://podcasts.apple.com/us/podcast/bzxs-kyle-kistner-exploring-protocol-for-tokenized/id1438148082?i=1000458022043). Kyle Kistner joined Tom Shaughnessy on Chain Reaction podcast and discussed the products built on the bZx Protocol.
 - [Torque walkthru video](https://www.youtube.com/watch?v=ro-7hgPPVrA)
 - [The Future of Multi Collateral Dai](https://www.youtube.com/watch?v=gHrFatzOkUw) - Kyle participated in Panel Discussion with Rune Christensen, founder of MakerDAO
+
+Stay tuned for more updates next month!
