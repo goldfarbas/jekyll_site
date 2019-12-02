@@ -30,6 +30,12 @@ Fulcrum & Torque listed on Loanscan.io with new DAI rates.
 
 ![](/images/blog/loanscan-new-dai.png)
 
+Lenders on Fulcrum could easily migrate from SAI to a new DAI with a single click:
+
+![](/images/blog/sai2dai.png)
+
+Thanks to DexWallet team for collaborating with us on that. This feature maid possible with [DexWallet Recipes](https://recipes.dexwallet.io).
+
 ## New Integrations
 
 Our iTokens it's probably the easiest way to add DeFi lending functionality to any dApp or exchange.
