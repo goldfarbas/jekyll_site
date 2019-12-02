@@ -53,11 +53,9 @@ VeriSafe DEX integrated bZx lending protocol
 
 ![](/images/blog/Blog VS Verisafe.png)
 
-VeriSafe DEX users can lend $DAI, $USDC, $ETH, $BAT and $ZRX right from the DEX interface.   
-See this in action [here](https://dex.verisafe.io/#/margin/lend)
+VeriSafe DEX users can lend $DAI, $USDC, $ETH, $BAT and $ZRX right from the DEX interface. See this in action [here](https://dex.verisafe.io/#/margin/lend)
 
-Synthetix [won in our community voting](https://twitter.com/bzxHQ/status/1195390676059316224)
-sUSD is live on Torque and Fulcrum for borrowing and lending, and we are going to launch margin trading for sUSD soon.
+Synthetix [won in our community voting](https://twitter.com/bzxHQ/status/1195390676059316224). sUSD is live on Torque and Fulcrum for borrowing and lending, and we are going to launch margin trading for sUSD soon.
 
 ![](/images/blog/itoken_circle_sUSD.png)
 
