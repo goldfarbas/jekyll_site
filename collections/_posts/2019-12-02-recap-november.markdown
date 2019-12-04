@@ -10,6 +10,13 @@ intro: "We had a very busy November at bZx, so here is our monthly newsletter �
 
 We had a very busy November at bZx, so here is our monthly newsletter “The Shipping Manifest” with key takeaways.
 
+## TVL Growth 📈📈📈
+
+In November we achieved another all-time-high TVL in ETH, according to defipulse.com stats, with 100% growth over the month:
+![](/images/blog/bZx___Stats__Charts_and_Guide___DeFi_Pulse.png)
+
+Fulcrum' trading volume in ETH on KyberNetwork spiked up to 26% compared to the previous month.
+
 ## Visual Identity Updated
 
 We updated our visual identity and redesigned the [bZx protocol website](https://bzx.network). Our new branding aimed to strengthen brand recognition for products built with the bZx protocol. You can find our media assets on [this page](/media-assets). We also migrated our twitter handle to a new one: [@bzxHQ](https://twitter.com/bzxHQ)
@@ -40,16 +47,16 @@ Fulcrum & Torque listed on Loanscan.io with new DAI rates.
 
 Our iTokens it's probably the easiest way to add DeFi lending functionality to any dApp or exchange.
 
-### iTokens live on Totle Swap
+### iTokens on Totle Swap
 
 [Totle](https://swap.totle.com/) is now [integrated](https://medium.com/totle/easily-purchase-itokens-with-totle-f63ed439162) with Fulcrum to enable users to directly purchase iTokens with ETH or any supported ERC-20
 ![](/images/blog/EJORyrZU0AAu1Gb.jpeg)
 
-### bZx Markets live on MetaMoneyMarket
+### bZx Markets on MetaMoneyMarket
 
 MetaMoneyMarket added bZx markets in [recent v0.1.2 upgrade](https://twitter.com/MetaMoneyMarket/status/1194457229086191616).
 
-### iTokens live on Paraswap
+### iTokens on Paraswap
 
 [Paraswap](https://paraswap.io/) [integrated](https://twitter.com/paraswap/status/1196274037649006597) bZx Protocol
 
@@ -59,7 +66,7 @@ MetaMoneyMarket added bZx markets in [recent v0.1.2 upgrade](https://twitter.com
 
 ![](/images/blog/Blog VS Verisafe.png)
 
-VeriSafe DEX users can lend $DAI, $USDC, $ETH, $BAT and $ZRX right from the DEX interface. See this in action [here](https://dex.verisafe.io/#/margin/lend)
+VeriSafe DEX users now can lend $DAI, $USDC, $ETH, $BAT and $ZRX right from the DEX interface. See this in action [here](https://dex.verisafe.io/#/margin/lend)
 
 ### Synthetix's sUSD listed on Fulcrum and Torque
 
@@ -82,6 +89,6 @@ Synthetix [won in our community voting](https://twitter.com/bzxHQ/status/1195390
 - [Chain Reaction - bZx's Kyle Kistner: Exploring The Protocol for Tokenized Margin Trading and Lending](https://podcasts.apple.com/us/podcast/bzxs-kyle-kistner-exploring-protocol-for-tokenized/id1438148082?i=1000458022043). Kyle Kistner joined Tom Shaughnessy on Chain Reaction podcast and discussed the products built on the bZx Protocol.
 - [Torque Walkthrough Video](https://www.youtube.com/watch?v=ro-7hgPPVrA)
 - [The Future of Multi Collateral Dai](https://www.youtube.com/watch?v=gHrFatzOkUw) - Kyle participated in Panel Discussion with Rune Christensen, founder of MakerDAO
-- [#KyberDeFi Hackathon: Meet the Winners!](https://blog.kyber.network/kyberdefi-hackathon-meet-the-winners-bea5bc9ec983) 
+- [#KyberDeFi Hackathon: Meet the Winners!](https://blog.kyber.network/kyberdefi-hackathon-meet-the-winners-bea5bc9ec983)
 
 Stay tuned for more updates next month!
