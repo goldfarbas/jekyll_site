@@ -37,7 +37,7 @@ Lenders on Fulcrum could easily migrate from SAI to a new DAI with a single clic
 
 ![](/images/blog/sai2dai.png)
 
-Thanks to DexWallet team for collaborating with us on that. This feature maid possible with [DexWallet Recipes](https://recipes.dexwallet.io), read more about [iSAI to iDAI migration recipe](https://medium.com/dexlab-io/fulcrum-isai-to-idai-migration-recipe-5cf36b53e7a9).
+Thanks to DexWallet team for collaborating with us on that. This feature made possible with [DexWallet Recipes](https://recipes.dexwallet.io), read more about [iSAI to iDAI migration recipe](https://medium.com/dexlab-io/fulcrum-isai-to-idai-migration-recipe-5cf36b53e7a9).
 
 Fulcrum & Torque listed on Loanscan.io with new DAI rates.
 
