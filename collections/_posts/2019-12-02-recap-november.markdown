@@ -25,7 +25,7 @@ We updated our visual identity and redesigned the [bZx protocol website](https:/
 
 ## Multi Collateral DAI on Fulcrum and Torque
 
-One of the most important events past month was the MakerDAO transition to a Multi Collateral DAI. We published our [MCD transition plan](/mcd-transition-plan), and already enabled new DAI markets on Fulcrum for trading and lending:   
+One of the most important events past month was the MakerDAO transition to a Multi Collateral DAI. We published our [MCD transition plan](/blog/mcd-transition-plan), and already enabled new DAI markets on Fulcrum for trading and lending:   
 
 ![](/images/blog/2019-12-02 12.13.29.jpg)
 
