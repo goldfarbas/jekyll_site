@@ -45,7 +45,7 @@ Fulcrum & Torque listed on Loanscan.io with new DAI rates.
 
 ## New Integrations
 
-Our iTokens it's probably the easiest way to add DeFi lending functionality to any dApp or exchange.
+Our iTokens are probably the easiest way to add DeFi lending functionality to any dApp or exchange.
 
 ### iTokens on Totle Swap
 
