@@ -15,7 +15,7 @@ We had a very busy November at bZx, so here is our monthly newsletter “The Shi
 In November we achieved another all-time-high TVL in ETH, according to defipulse.com stats, with 100% growth over the month:
 ![](/images/blog/bZx___Stats__Charts_and_Guide___DeFi_Pulse.png)
 
-Fulcrum' trading volume in ETH on KyberNetwork spiked up to 26% compared to the previous month.
+Fulcrum's trading volume in ETH on KyberNetwork spiked up to 26% compared to the previous month.
 
 ## Visual Identity Updated
 
