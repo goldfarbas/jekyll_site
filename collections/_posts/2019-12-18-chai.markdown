@@ -3,7 +3,7 @@ layout: post
 title:  "Idle DAI on Fulcrum now earns the DSR using Chai"
 date:   2019-12-18 10:12:46 -0700
 cover: /images/blog/Maker_CHAI_iDAI.png
-author: Kistner
+author: Bean
 metadescription: "Idle DAI on Fulcrum now earns the DSR using Chai. We are proud to be the first platform to offer the DSR for our DAI lenders."
 intro: "We are proud to be the first platform to offer the DSR for our DAI lenders."
 ---
