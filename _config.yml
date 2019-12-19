@@ -133,3 +133,7 @@ collections:
      permalink: /blog/:title
 
 keep_files: [images, pdfs]
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
