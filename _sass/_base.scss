@@ -96,14 +96,11 @@ a {
 .integrations-svg-wrapper {
   position: relative;
   bottom: -5px;
-}
-@media (min-width: 768px) {
-  .integrations-svg-wrapper {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: -5px;
+  margin-top: -30px;
+  @media(max-width: 1439px){
+    svg {
+      height: auto;
+    }
   }
 }
 @media (min-width: 580px) {
@@ -187,4 +184,8 @@ a {
   @media (min-width: 1440px) {
     margin-top: -90px;
   }
+}
+
+.d-block {
+  display: block;
 }
