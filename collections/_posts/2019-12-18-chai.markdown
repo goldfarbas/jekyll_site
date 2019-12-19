@@ -7,7 +7,7 @@ author: Bean
 metadescription: "DAI in Fulcrum now earns the DSR using Chai. We are proud to be the first platform to offer the DSR for our DAI lenders."
 intro: "We are proud to be the first platform to offer the DSR for our DAI lenders."
 ---
-Yesterday we initiated a transaction that updates the iDAI logic contract. It has passed through our timelock, and now DAI in Fulcrum lending pools that hasn’t been loaned out is used to mint [Chai](http://chai.money). Chai is a simple ERC20 wrapper for the MakerDAO Dai Savings Rate (DSR) and was created by dAppHub. This means that as long as there are reserves sitting idle, supply rates will receive a boost from the DSR. Supply rates can be queried on iDAI as before and already include the DSR in returned values. The addition of the DSR affects the supply rate according to the following:
+Yesterday we initiated a transaction that updates the iDAI logic contract. It has passed through our timelock, and now DAI in [Fulcrum](https://fulcrum.trade/#/lend) lending pools that hasn’t been loaned out is used to mint [Chai](http://chai.money). Chai is a simple ERC20 wrapper for the MakerDAO Dai Savings Rate (DSR) and was created by dAppHub. This means that as long as there are reserves sitting idle, supply rates will receive a boost from the DSR. Supply rates can be queried on iDAI as before and already include the DSR in returned values. The addition of the DSR affects the supply rate according to the following:
 
 > Current_Supply_Rate = iDAI_Native_Supply_Rate + DSR * (1 - current_utilization)
 
