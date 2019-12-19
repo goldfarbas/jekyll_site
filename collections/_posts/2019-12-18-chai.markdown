@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Idle DAI on Fulcrum now earns the DSR using Chai"
+date:   2019-12-18 10:12:46 -0700
+cover: /images/blog/Maker_CHAI_iDAI.png
+author: Kistner
+metadescription: "Idle DAI on Fulcrum now earns the DSR using Chai. We are proud to be the first platform to offer the DSR for our DAI lenders."
+intro: "We are proud to be the first platform to offer the DSR for our DAI lenders."
+---
+Yesterday we initiated a transaction that updates the iDAI logic contract. It has passed through our timelock, and now DAI in Fulcrum lending pools that hasn’t been loaned out is used to mint [Chai](http://chai.money). Chai is a simple ERC20 wrapper over the DSR, created by dAppHub. This means that as long as there are reserves sitting idle, supply rates will receive a boost from DSR. The supply rate can be calculated as the following:
+
+> Supply_rate = native_rate + DSR*(1-util_rate)
+
+We are proud to be the first platform to offer the DSR for our DAI lenders. With this new upgrade, holders of Chai will also be able to deposit it directly into Fulcrum’s DAI lending pools without unwrapping it using the new function _`mintWithChai`_. Users and developers can also withdraw directly into Chai using the new function _`burntoChai`_. Lastly, we have added the read-only function _`chaiPrice()`_ to view the redemption value of a burn in Chai terms.  
