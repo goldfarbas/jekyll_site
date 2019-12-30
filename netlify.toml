@@ -1,0 +1,35 @@
+[[redirects]]
+from = "/faq-fulcrum.html"
+to = "https://help.bzx.network/en/collections/1996706-fulcrum"
+status = 301
+force = false
+[[redirects]]
+from = "/faq.html"
+to = "https://help.bzx.network/en/"
+status = 301
+force = false
+[[redirects]]
+from = "/pdfs/bZx_white_paper.pdf"
+to = "/pdfs/bZx_lite_paper.pdf"
+status = 301
+force = false
+[[redirects]]
+from = "/pdfs/b0x_white_paper.pdf"
+to = "/pdfs/bZx_lite_paper.pdf"
+status = 301
+force = false
+[[redirects]]
+from = "/discord"
+to = "https://discord.gg/DKEq6FV"
+status = 301
+force = false
+[[redirects]]
+from = "/tokensale"
+to = "/blog/bzx-public-presale-announcement"
+status = 301
+force = false
+[[redirects]]
+from = "/docs/*"
+to = "https://docs.bzx.network/"
+status = 301
+force = false
