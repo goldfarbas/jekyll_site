@@ -4,6 +4,7 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+  
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
@@ -26,24 +27,22 @@ layout: null
             {% for cat in post.categories %}
             <category>{{ cat | xml_escape }}</category>
         {% endfor %}
-        <readingTime>
-            {% assign num_words = post.content | strip_html | number_of_words %}
-            {% assign minutes_f = num_words | divided_by: 200.0 %}      
-            {% assign minutes_i = num_words | divided_by: 200 %}        
-            {% assign diff = minutes_f | minus: minutes_i %}            
-            {% if diff >= 0.5 %}
-                {% assign minutes = minutes_i %}
-                {% increment minutes %}
-            {% else %}
-                {% assign minutes = minutes_i %}
-            {% endif %}
-            {% if minutes <= 1 %}
-                {% assign reading_time = '1'%}
-            {% else %}
-                {% assign reading_time = minutes%}
-            {% endif %}
-            {{reading_time}}
-        </readingTime>
+        
+        {% assign num_words = post.content | strip_html | number_of_words %}
+        {% assign minutes_f = num_words | divided_by: 200.0 %}      
+        {% assign minutes_i = num_words | divided_by: 200 %}        
+        {% assign diff = minutes_f | minus: minutes_i %}            
+        {% if diff >= 0.5 %}
+            {% assign minutes = minutes_i | plus: 1 %}
+        {% else %}
+            {% assign minutes = minutes_i %}
+        {% endif %}
+        {% if minutes <= 1 %}
+            {% assign reading_time = '1'%}
+        {% else %}
+            {% assign reading_time = minutes%}
+        {% endif %}
+        <readingTime>{{reading_time}}</readingTime>
       </item>
     {% endfor %}
   </channel>
