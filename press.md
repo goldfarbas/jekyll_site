@@ -8,6 +8,9 @@ h1title: Press about bZx
 ---
 
 - [The MakerDAO-BZx Partnership And How It Could Strengthen The Crypto Ecosystem](https://www.investinblockchain.com/makerdao-bzx-partnership/)
+- Podcast: [Genesis Block Venture Capital & Fulcrum](https://www.youtube.com/watch?v=-hzNRAD5XMg)
+- Podcast: [Wyre Talks Ep 32, The Future of Margin Lending in Crypto with Tom Bean & Kyle Kistner of bZx](https://wyre-talks.simplecast.com/episodes/f4d28cbc)
+- Podcast: [Any Token, Anywhere - Ep 4: Fulcrum powered by bZx](https://www.youtube.com/watch?v=znWzR6dR5Hw) 
 - [DEFI LENDING: SUPPLY CRYPTO, EARN INTEREST](https://nuggetsnews.com.au/defi-lending-supply-crypto-earn-interest/)
 - Interview: [In Traditional Financial Circles This Would be Considered "Nonsense"](https://thedefiant.substack.com/p/in-traditional-financial-circles)
 - Podcast: [Wizard of Dapps - Episode 24: bZx & Fulcrum with Kyle Kistner](https://anchor.fm/wizardofdapps/episodes/Episode-24-bZx--Fulcrum-with-Kyle-Kristner-e8rage)
