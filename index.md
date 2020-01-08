@@ -219,7 +219,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle bottom right z-index-2"></div>
                     <a href="https://defizap.com/">
                         {% include svg/defizap.svg %}
-                        <p>Get instant exposure across multiple DeFi protocols based on your investment goals.</p>
+                        <p>DeFiZap - Get instant exposure across multiple DeFi protocols based on your investment goals.</p>
                     </a>
                 </div>
             </div>
