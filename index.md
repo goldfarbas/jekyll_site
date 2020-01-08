@@ -33,20 +33,20 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
 <section class="text-center pt-55 pt-xs-45 pb-120 pb-sm-30 bg-tertiary">
     <div class="container container-lg p-relative before-product-protocol">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products Built on the bZx Protocol</h2>
-        <div class="d-flex j-content-sb j-md-content-sa f-wrap">        
+        <div class="d-flex j-content-sb j-md-content-sa f-wrap">
             <div class="product-protocol">
             <a href="https://fulcrum.trade">
                 <div class="container-circle">
                     <div class="circle circle-tertiary"></div>
-                    <div class="circle circle-secondary"></div>      
-                    <div class="circle circle-secondary"></div>      
-                </div>    
+                    <div class="circle circle-secondary"></div>
+                    <div class="circle circle-secondary"></div>
+                </div>
                 <div class="fulcrum">
                     <div class="item">
                         {% include svg/fulcrum-logo.svg %}
                         <p class="lh-160 mt-55 mt-xs-30">DeFi Margin Lending and Trading Platform</p>
                         <div class="circle bottom left"></div>
-                        <div class="circle bottom right"></div>  
+                        <div class="circle bottom right"></div>
                     </div>
                 </div>
             </a>
@@ -54,16 +54,16 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             <div class="product-protocol">
                 <div class="container-circle">
                     <div class="circle circle-tertiary"></div>
-                    <div class="circle circle-secondary"></div>      
-                    <div class="circle circle-tertiary"></div>      
+                    <div class="circle circle-secondary"></div>
+                    <div class="circle circle-tertiary"></div>
                 </div>
                 <a href="https://torque.loans">
                     <div class="torque">
-                        <div class="item">            
+                        <div class="item">
                             {% include svg/torque-logo.svg %}
                             <p class="lh-160 mt-55 mt-xs-30">Indefinite-term Loans with Fixed Interest Rates</p>
                             <div class="circle bottom left"></div>
-                            <div class="circle bottom right"></div>      
+                            <div class="circle bottom right"></div>
                         </div>
                     </div>
                 </a>
@@ -84,7 +84,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>  
+                    <div class="circle bottom right z-index-2"></div>
                     <a href="https://defisaver.com/">
                     {% include svg/defi-saver.svg %}
                     <p>DeFi Saver is a one-stop management solution for decentralized finance protocols.</p>
@@ -192,7 +192,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>  
+                    <div class="circle bottom right z-index-2"></div>
                     <a href="https://paraswap.io/">
                         {% include svg/paraswap.svg %}
                         <p>ParaSwap aggregates multiple decentralized exchanges.</p>
@@ -204,27 +204,39 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>  
+                    <div class="circle bottom right z-index-2"></div>
                     <a href="https://swap.totle.com/">
                         {% include svg/totle.svg %}
                         <p>Swap and transfer tokens while automatically getting the best prices from decentralized exchanges.</p>
                     </a>
                 </div>
             </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>
+                    <a href="https://defizap.com/">
+                        {% include svg/defizap.svg %}
+                        <p>DeFiZap - Get instant exposure across multiple DeFi protocols based on your investment goals.</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="integrations-svg-wrapper">    
+    <div class="integrations-svg-wrapper">
         {% include svg/integrations.svg %}
-        {% include svg/integrations-mobile.svg %}        
+        {% include svg/integrations-mobile.svg %}
         <!--script>
             function integrationsResizer(){
                 var integrationsSVG = document.querySelector(".integrations-svg-wrapper > svg.desktop");
                 var newHeight = window.innerWidth * 490/1440;
                 if (newHeight < 490)
-                    integrationsSVG.setAttribute("height", `${newHeight}px`);   
+                    integrationsSVG.setAttribute("height", `${newHeight}px`);
             };
             integrationsResizer();
-            window.addEventListener("resize", integrationsResizer);            
+            window.addEventListener("resize", integrationsResizer);
         </script-->
     </div>
 </section>
@@ -263,7 +275,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
     </div>
     <div class="p-relative svg-insured mt-r-90 mt-xs-60 mb-40 mb-xs-20">
         {% include svg/insured.svg %}
-        {% include svg/insured-mobile.svg %}        
+        {% include svg/insured-mobile.svg %}
     </div>
     <div class="p-relative before-smoke">
         <div class="p-relative smoking-tube overflow-x visible-lg">
@@ -274,15 +286,15 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
             {% include svg/wheel.svg %}
         </div>
     </div>
-    <div class="p-relative mb-20 mb-xs-0 mt-r-180 mt-xs-100" id="visible-token">    
+    <div class="p-relative mb-20 mb-xs-0 mt-r-180 mt-xs-100" id="visible-token">
             <div class="container container-xs mb-60 mb-xs-10 mt-lg-r-90 mt-xs-20 p-relative opacity-trumpet">
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-xs-150 mb-30 color-tertiary">BZRX Governance Token </h3>
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
-        </div>    
+        </div>
         <div class="token-svg-wrapper">
             {% include svg/token.svg %}
-            {% include svg/token-mobile.svg %}   
+            {% include svg/token-mobile.svg %}
             <script>
                 function tokenResizer(){
                     var tokenSVG = document.querySelector(".token-svg-wrapper > svg.desktop");
@@ -310,7 +322,7 @@ title: bZx - A Protocol For Tokenized Margin Trading and Lending
         <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x long on fulcrum</a>
     </div>
     <div class="long-svg-wrapper">
-        {% include svg/long-positions.svg %}    
+        {% include svg/long-positions.svg %}
     </div>
     {% include svg/long-positions-mobile.svg %}
 </section>
